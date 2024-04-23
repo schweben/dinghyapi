@@ -1,0 +1,77 @@
+databaseChangeLog:
+  - changeSet:
+      id: insert-data
+      author: Iain Soars
+      changes:
+        - insert:
+            tableName: dinghies
+            columns:
+              - column:
+                  name: name
+                  value: 'RS Tera Pro'
+              - column:
+                  name: manufacturer
+                  value: 'RS'
+              - column:
+                  name: yardstick
+                  value: 1451
+              - column:
+                  name: crew
+                  value: 1
+              - column:
+                  name: rig
+                  value: 'Una'
+              - column:
+                  name: trapeze
+                  value: 0
+              - column:
+                  name: length
+                  value: 2.87
+              - column:
+                  name: beam
+                  value: 1.22
+              - column:
+                  name: sail_area
+                  value: 4.6
+              - column:
+                  name: logo_path
+                  value: 'rs-tera-logo.jpg'
+              - column:
+                  name: image_path
+                  value: 'rs-tera-image.jpg'
+        - insert:
+            tableName: dinghies
+            columns:
+              - column:
+                  name: name
+                  value: 'RS Tera Sport'
+              - column:
+                  name: manufacturer
+                  value: 'RS'
+              - column:
+                  name: yardstick
+                  value: 1351
+              - column:
+                  name: crew
+                  value: 1
+              - column:
+                  name: rig
+                  value: 'Una'
+              - column:
+                  name: trapeze
+                  value: 0
+              - column:
+                  name: length
+                  value: 2.87
+              - column:
+                  name: beam
+                  value: 1.22
+              - column:
+                  name: sail_area
+                  value: 4.6
+              - column:
+                  name: logo_path
+                  value: 'rs-tera-logo.jpg'
+              - column:
+                  name: image_path
+                  value: 'rs-tera-image.jpg'
