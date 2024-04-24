@@ -25,7 +25,7 @@ public class Dinghy {
 	private String manufacturer;
 
 	@Column(name = "YARDSTICK")
-	private String yardstick;
+	private Integer yardstick;
 
 	@Column(name = "CREW", nullable = false)
 	private Integer crew;
