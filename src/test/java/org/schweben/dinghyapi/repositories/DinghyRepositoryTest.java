@@ -30,4 +30,10 @@ public class DinghyRepositoryTest {
 		List<Dinghy> results = dinghyRepository.findByNameContaining("Tera");
 		Assertions.assertEquals(2, results.size());
 	}
+
+	@Test
+	public void testFindAll() {
+		List<Dinghy> results = dinghyRepository.findAll();
+		Assertions.assertFalse(results.isEmpty());
+	}
 }

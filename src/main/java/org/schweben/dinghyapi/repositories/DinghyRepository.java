@@ -7,6 +7,7 @@ import java.util.List;
 
 public interface DinghyRepository extends CrudRepository<Dinghy, Integer> {
 
+	List<Dinghy> findAll();
 	List<Dinghy> findByName(String name);
 	List<Dinghy> findByNameContaining(String name);
 }
