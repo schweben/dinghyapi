@@ -1,6 +1,5 @@
 target/
-dinghies.csv
-dinghies.yaml
+*.csv
 *.pdf
 
 ### IntelliJ IDEA ###

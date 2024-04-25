@@ -1,8 +1,10 @@
 import sys
 
-changeSetId = sys.argv[1]
+excelFilename = sys.argv[1]
+changeSetId = sys.argv[2]
+
 rowCounter = 0
-excelFilename = "dinghies.csv"
+
 yamlFilename = excelFilename.replace('csv', 'yaml')
 dinghies = {}
 
@@ -12,7 +14,7 @@ with open(excelFilename, "r") as excelCsv:
             rowCounter += 1 # Skip the column header
         else:
             # Save the CSV as a dictionary
-            name, manufacturer, yardstick, crew, rig, hulls, symmetric_spinnaker, asymmetric_spinnaker, trapeze, length, beam, hull_weight, sail_area, spinnaker_area, logo_path, image_path = line.replace(' ','').strip().split(',')
+            name, manufacturer, yardstick, crew, rig, hulls, symmetric_spinnaker, asymmetric_spinnaker, trapeze, length, beam, hull_weight, sail_area, spinnaker_area, logo_path, image_path = line.strip().split(',')
 
             dinghies[name] = {'name': name,
                               'manufacturer': manufacturer,

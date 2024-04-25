@@ -7,260 +7,1112 @@ databaseChangeLog:
             tableName: dinghies
             columns:
               - column:
-                  name: name
-                  value: 'RS Tera Pro'
+                 name: name
+                 value: 'RS Tera Pro'
               - column:
-                  name: manufacturer
-                  value: 'RS'
+                 name: manufacturer
+                 value: 'RS'
               - column:
-                  name: yardstick
-                  value: 1451
+                 name: yardstick
+                 value: '1451'
               - column:
-                  name: crew
-                  value: 1
+                 name: crew
+                 value: '1'
               - column:
-                  name: rig
-                  value: 'Una'
+                 name: rig
+                 value: 'Una'
               - column:
-                  name: trapeze
-                  value: 0
+                 name: hulls
+                 value: '1'
               - column:
-                  name: length
-                  value: 2.87
+                 name: symmetric_spinnaker
+                 value: 'false'
               - column:
-                  name: beam
-                  value: 1.22
+                 name: asymmetric_spinnaker
+                 value: 'false'
               - column:
-                  name: sail_area
-                  value: 4.6
+                 name: trapeze
+                 value: '0'
               - column:
-                  name: logo_path
-                  value: 'rs-tera-logo.jpg'
+                 name: length
+                 value: '2.87'
               - column:
-                  name: image_path
-                  value: 'rs-tera-image.jpg'
+                 name: beam
+                 value: '1.23'
+              - column:
+                 name: hull_weight
+                 value: '43'
+              - column:
+                 name: sail_area
+                 value: '4.8'
         - insert:
             tableName: dinghies
             columns:
               - column:
-                  name: name
-                  value: 'RS Tera Sport'
+                 name: name
+                 value: 'RS Tera Sport'
               - column:
-                  name: manufacturer
-                  value: 'RS'
+                 name: manufacturer
+                 value: 'RS'
               - column:
-                  name: yardstick
-                  value: 1351
+                 name: yardstick
+                 value: '1351'
               - column:
-                  name: crew
-                  value: 1
+                 name: crew
+                 value: '1'
               - column:
-                  name: rig
-                  value: 'Una'
+                 name: rig
+                 value: 'Una'
               - column:
-                  name: trapeze
-                  value: 0
+                 name: hulls
+                 value: '1'
               - column:
-                  name: length
-                  value: 2.87
+                 name: symmetric_spinnaker
+                 value: 'false'
               - column:
-                  name: beam
-                  value: 1.22
+                 name: asymmetric_spinnaker
+                 value: 'false'
               - column:
-                  name: sail_area
-                  value: 4.6
+                 name: trapeze
+                 value: '0'
               - column:
-                  name: logo_path
-                  value: 'rs-tera-logo.jpg'
+                 name: length
+                 value: '2.87'
               - column:
-                  name: image_path
-                  value: 'rs-tera-image.jpg'
+                 name: beam
+                 value: '1.23'
+              - column:
+                 name: hull_weight
+                 value: '43'
+              - column:
+                 name: sail_area
+                 value: '3.7'
         - insert:
             tableName: dinghies
             columns:
               - column:
-                  name: name
-                  value: 'RS Aero 5'
+                 name: name
+                 value: 'RS Aero 5'
               - column:
-                  name: manufacturer
-                  value: 'RS'
+                 name: manufacturer
+                 value: 'RS'
               - column:
-                  name: yardstick
-                  value: 1141
+                 name: yardstick
+                 value: '1141'
               - column:
-                  name: crew
-                  value: 1
+                 name: crew
+                 value: '1'
               - column:
-                  name: rig
-                  value: 'Una'
+                 name: rig
+                 value: 'Una'
               - column:
-                  name: trapeze
-                  value: 0
+                 name: hulls
+                 value: '1'
               - column:
-                  name: length
-                  value: 4.0
+                 name: symmetric_spinnaker
+                 value: 'false'
               - column:
-                  name: beam
-                  value: 1.4
+                 name: asymmetric_spinnaker
+                 value: 'false'
               - column:
-                  name: sail_area
-                  value: 5.2
+                 name: trapeze
+                 value: '0'
               - column:
-                  name: logo_path
-                  value: 'rs-aero5-logo.jpg'
+                 name: length
+                 value: '4'
               - column:
-                  name: image_path
-                  value: 'rs-aero5-image.jpg'
+                 name: beam
+                 value: '1.4'
+              - column:
+                 name: hull_weight
+                 value: '33'
+              - column:
+                 name: sail_area
+                 value: '5.2'
         - insert:
             tableName: dinghies
             columns:
               - column:
-                  name: name
-                  value: 'RS Aero 6'
+                 name: name
+                 value: 'RS Aero 6'
               - column:
-                  name: manufacturer
-                  value: 'RS'
+                 name: manufacturer
+                 value: 'RS'
               - column:
-                  name: yardstick
-                  value: 1102
+                 name: yardstick
+                 value: '1102'
               - column:
-                  name: crew
-                  value: 1
+                 name: crew
+                 value: '1'
               - column:
-                  name: rig
-                  value: 'Una'
+                 name: rig
+                 value: 'Una'
               - column:
-                  name: trapeze
-                  value: 0
+                 name: hulls
+                 value: '1'
               - column:
-                  name: length
-                  value: 4.0
+                 name: symmetric_spinnaker
+                 value: 'false'
               - column:
-                  name: beam
-                  value: 1.4
+                 name: asymmetric_spinnaker
+                 value: 'false'
               - column:
-                  name: sail_area
-                  value: 6.3
+                 name: trapeze
+                 value: '0'
               - column:
-                  name: logo_path
-                  value: 'rs-aero6-logo.jpg'
+                 name: length
+                 value: '4'
               - column:
-                  name: image_path
-                  value: 'rs-aero6-image.jpg'
+                 name: beam
+                 value: '1.4'
+              - column:
+                 name: hull_weight
+                 value: '33'
+              - column:
+                 name: sail_area
+                 value: '6.3'
         - insert:
             tableName: dinghies
             columns:
               - column:
-                  name: name
-                  value: 'RS Aero 7'
+                 name: name
+                 value: 'RS Aero 7'
               - column:
-                  name: manufacturer
-                  value: 'RS'
+                 name: manufacturer
+                 value: 'RS'
               - column:
-                  name: yardstick
-                  value: 1061
+                 name: yardstick
+                 value: '1061'
               - column:
-                  name: crew
-                  value: 1
+                 name: crew
+                 value: '1'
               - column:
-                  name: rig
-                  value: 'Una'
+                 name: rig
+                 value: 'Una'
               - column:
-                  name: trapeze
-                  value: 0
+                 name: hulls
+                 value: '1'
               - column:
-                  name: length
-                  value: 4.0
+                 name: symmetric_spinnaker
+                 value: 'false'
               - column:
-                  name: beam
-                  value: 1.4
+                 name: asymmetric_spinnaker
+                 value: 'false'
               - column:
-                  name: sail_area
-                  value: 7.4
+                 name: trapeze
+                 value: '0'
               - column:
-                  name: logo_path
-                  value: 'rs-aero7-logo.jpg'
+                 name: length
+                 value: '4'
               - column:
-                  name: image_path
-                  value: 'rs-aero7-image.jpg'
+                 name: beam
+                 value: '1.4'
+              - column:
+                 name: hull_weight
+                 value: '33'
+              - column:
+                 name: sail_area
+                 value: '7.4'
         - insert:
             tableName: dinghies
             columns:
               - column:
-                  name: name
-                  value: 'RS Aero 9'
+                 name: name
+                 value: 'RS Aero 9'
               - column:
-                  name: manufacturer
-                  value: 'RS'
+                 name: manufacturer
+                 value: 'RS'
               - column:
-                  name: yardstick
-                  value: 1008
+                 name: yardstick
+                 value: '1008'
               - column:
-                  name: crew
-                  value: 1
+                 name: crew
+                 value: '1'
               - column:
-                  name: rig
-                  value: 'Una'
+                 name: rig
+                 value: 'Una'
               - column:
-                  name: trapeze
-                  value: 0
+                 name: hulls
+                 value: '1'
               - column:
-                  name: length
-                  value: 4.0
+                 name: symmetric_spinnaker
+                 value: 'false'
               - column:
-                  name: beam
-                  value: 1.4
+                 name: asymmetric_spinnaker
+                 value: 'false'
               - column:
-                  name: sail_area
-                  value: 8.9
+                 name: trapeze
+                 value: '0'
               - column:
-                  name: logo_path
-                  value: 'rs-aero9-logo.jpg'
+                 name: length
+                 value: '4'
               - column:
-                  name: image_path
-                  value: 'rs-aero9-image.jpg'
+                 name: beam
+                 value: '1.4'
+              - column:
+                 name: hull_weight
+                 value: '33'
+              - column:
+                 name: sail_area
+                 value: '8.9'
         - insert:
             tableName: dinghies
             columns:
               - column:
-                  name: name
-                  value: '2000'
+                 name: name
+                 value: 'RS Feva XL'
               - column:
-                  name: manufacturer
-                  value: 'RS'
+                 name: manufacturer
+                 value: 'RS'
               - column:
-                  name: yardstick
-                  value: 1118
+                 name: yardstick
+                 value: '1244'
               - column:
-                  name: crew
-                  value: 2
+                 name: crew
+                 value: '2'
               - column:
-                  name: rig
-                  value: 'Sloop'
+                 name: rig
+                 value: 'Sloop'
               - column:
-                  name: symmetric_spinnaker
-                  value: false
+                 name: hulls
+                 value: '1'
               - column:
-                  name: asymmetric_spinnaker
-                  value: true
+                 name: symmetric_spinnaker
+                 value: 'false'
               - column:
-                  name: trapeze
-                  value: 0
+                 name: asymmetric_spinnaker
+                 value: 'true'
               - column:
-                  name: length
-                  value: -1
+                 name: trapeze
+                 value: '0'
               - column:
-                  name: beam
-                  value: -1
+                 name: length
+                 value: '3.64'
               - column:
-                  name: sail_area
-                  value: -1
+                 name: beam
+                 value: '1.42'
               - column:
-                  name: spinnaker_area
-                  value: -1
+                 name: hull_weight
+                 value: '73'
               - column:
-                  name: logo_path
-                  value: '2000-logo.jpg'
+                 name: sail_area
+                 value: '8.6'
               - column:
-                  name: image_path
-                  value: '2000-image.jpg'
+                 name: spinnaker_area
+                 value: '7'
+        - insert:
+            tableName: dinghies
+            columns:
+              - column:
+                 name: name
+                 value: 'RS Vareo'
+              - column:
+                 name: manufacturer
+                 value: 'RS'
+              - column:
+                 name: yardstick
+                 value: '1093'
+              - column:
+                 name: crew
+                 value: '1'
+              - column:
+                 name: rig
+                 value: 'Una'
+              - column:
+                 name: hulls
+                 value: '1'
+              - column:
+                 name: symmetric_spinnaker
+                 value: 'false'
+              - column:
+                 name: asymmetric_spinnaker
+                 value: 'true'
+              - column:
+                 name: trapeze
+                 value: '0'
+              - column:
+                 name: length
+                 value: '4.27'
+              - column:
+                 name: beam
+                 value: '1.57'
+              - column:
+                 name: hull_weight
+                 value: '70'
+              - column:
+                 name: sail_area
+                 value: '8.7'
+              - column:
+                 name: spinnaker_area
+                 value: '9.9'
+        - insert:
+            tableName: dinghies
+            columns:
+              - column:
+                 name: name
+                 value: 'RS Vision'
+              - column:
+                 name: manufacturer
+                 value: 'RS'
+              - column:
+                 name: yardstick
+                 value: '1139'
+              - column:
+                 name: crew
+                 value: '2'
+              - column:
+                 name: rig
+                 value: 'Sloop'
+              - column:
+                 name: hulls
+                 value: '1'
+              - column:
+                 name: symmetric_spinnaker
+                 value: 'false'
+              - column:
+                 name: asymmetric_spinnaker
+                 value: 'true'
+              - column:
+                 name: trapeze
+                 value: '0'
+              - column:
+                 name: length
+                 value: '4.57'
+              - column:
+                 name: beam
+                 value: '1.73'
+              - column:
+                 name: hull_weight
+                 value: '125'
+              - column:
+                 name: sail_area
+                 value: '11.9'
+              - column:
+                 name: spinnaker_area
+                 value: '12'
+        - insert:
+            tableName: dinghies
+            columns:
+              - column:
+                 name: name
+                 value: 'RS100 8.4'
+              - column:
+                 name: manufacturer
+                 value: 'RS'
+              - column:
+                 name: yardstick
+                 value: '999'
+              - column:
+                 name: crew
+                 value: '1'
+              - column:
+                 name: rig
+                 value: 'Una'
+              - column:
+                 name: hulls
+                 value: '1'
+              - column:
+                 name: symmetric_spinnaker
+                 value: 'false'
+              - column:
+                 name: asymmetric_spinnaker
+                 value: 'true'
+              - column:
+                 name: trapeze
+                 value: '0'
+              - column:
+                 name: length
+                 value: '4.3'
+              - column:
+                 name: beam
+                 value: '1.83'
+              - column:
+                 name: hull_weight
+                 value: '52'
+              - column:
+                 name: sail_area
+                 value: '8.4'
+              - column:
+                 name: spinnaker_area
+                 value: '12.5'
+        - insert:
+            tableName: dinghies
+            columns:
+              - column:
+                 name: name
+                 value: 'RS100 10.2'
+              - column:
+                 name: manufacturer
+                 value: 'RS'
+              - column:
+                 name: crew
+                 value: '1'
+              - column:
+                 name: rig
+                 value: 'Una'
+              - column:
+                 name: hulls
+                 value: '1'
+              - column:
+                 name: symmetric_spinnaker
+                 value: 'false'
+              - column:
+                 name: asymmetric_spinnaker
+                 value: 'true'
+              - column:
+                 name: trapeze
+                 value: '0'
+              - column:
+                 name: length
+                 value: '4.3'
+              - column:
+                 name: beam
+                 value: '1.83'
+              - column:
+                 name: hull_weight
+                 value: '52'
+              - column:
+                 name: sail_area
+                 value: '10.2'
+              - column:
+                 name: spinnaker_area
+                 value: '12.5'
+        - insert:
+            tableName: dinghies
+            columns:
+              - column:
+                 name: name
+                 value: 'RS200'
+              - column:
+                 name: manufacturer
+                 value: 'RS'
+              - column:
+                 name: yardstick
+                 value: '1046'
+              - column:
+                 name: crew
+                 value: '2'
+              - column:
+                 name: rig
+                 value: 'Sloop'
+              - column:
+                 name: hulls
+                 value: '1'
+              - column:
+                 name: symmetric_spinnaker
+                 value: 'false'
+              - column:
+                 name: asymmetric_spinnaker
+                 value: 'true'
+              - column:
+                 name: trapeze
+                 value: '0'
+              - column:
+                 name: length
+                 value: '4'
+              - column:
+                 name: beam
+                 value: '1.83'
+              - column:
+                 name: hull_weight
+                 value: '78'
+              - column:
+                 name: sail_area
+                 value: '11.89'
+              - column:
+                 name: spinnaker_area
+                 value: '8.29'
+        - insert:
+            tableName: dinghies
+            columns:
+              - column:
+                 name: name
+                 value: 'RS300'
+              - column:
+                 name: manufacturer
+                 value: 'RS'
+              - column:
+                 name: yardstick
+                 value: '965'
+              - column:
+                 name: crew
+                 value: '1'
+              - column:
+                 name: rig
+                 value: 'Una'
+              - column:
+                 name: hulls
+                 value: '1'
+              - column:
+                 name: symmetric_spinnaker
+                 value: 'false'
+              - column:
+                 name: asymmetric_spinnaker
+                 value: 'false'
+              - column:
+                 name: trapeze
+                 value: '0'
+              - column:
+                 name: length
+                 value: '4.24'
+              - column:
+                 name: beam
+                 value: '2'
+              - column:
+                 name: hull_weight
+                 value: '58'
+              - column:
+                 name: sail_area
+                 value: '10'
+        - insert:
+            tableName: dinghies
+            columns:
+              - column:
+                 name: name
+                 value: 'RS400'
+              - column:
+                 name: manufacturer
+                 value: 'RS'
+              - column:
+                 name: yardstick
+                 value: '939'
+              - column:
+                 name: crew
+                 value: '2'
+              - column:
+                 name: rig
+                 value: 'Sloop'
+              - column:
+                 name: hulls
+                 value: '1'
+              - column:
+                 name: symmetric_spinnaker
+                 value: 'false'
+              - column:
+                 name: asymmetric_spinnaker
+                 value: 'true'
+              - column:
+                 name: trapeze
+                 value: '0'
+              - column:
+                 name: length
+                 value: '4.52'
+              - column:
+                 name: beam
+                 value: '1.98'
+              - column:
+                 name: hull_weight
+                 value: '88'
+              - column:
+                 name: sail_area
+                 value: '14.76'
+              - column:
+                 name: spinnaker_area
+                 value: '13.94'
+        - insert:
+            tableName: dinghies
+            columns:
+              - column:
+                 name: name
+                 value: 'RS500'
+              - column:
+                 name: manufacturer
+                 value: 'RS'
+              - column:
+                 name: yardstick
+                 value: '963'
+              - column:
+                 name: crew
+                 value: '2'
+              - column:
+                 name: rig
+                 value: 'Sloop'
+              - column:
+                 name: hulls
+                 value: '1'
+              - column:
+                 name: symmetric_spinnaker
+                 value: 'false'
+              - column:
+                 name: asymmetric_spinnaker
+                 value: 'true'
+              - column:
+                 name: trapeze
+                 value: '1'
+              - column:
+                 name: length
+                 value: '4.34'
+              - column:
+                 name: beam
+                 value: '1.58'
+              - column:
+                 name: hull_weight
+                 value: '87'
+              - column:
+                 name: sail_area
+                 value: '13.1'
+              - column:
+                 name: spinnaker_area
+                 value: '14'
+        - insert:
+            tableName: dinghies
+            columns:
+              - column:
+                 name: name
+                 value: 'RS600'
+              - column:
+                 name: manufacturer
+                 value: 'RS'
+              - column:
+                 name: yardstick
+                 value: '917'
+              - column:
+                 name: crew
+                 value: '1'
+              - column:
+                 name: rig
+                 value: 'Una'
+              - column:
+                 name: hulls
+                 value: '1'
+              - column:
+                 name: symmetric_spinnaker
+                 value: 'false'
+              - column:
+                 name: asymmetric_spinnaker
+                 value: 'false'
+              - column:
+                 name: trapeze
+                 value: '1'
+              - column:
+                 name: length
+                 value: '4.47'
+              - column:
+                 name: beam
+                 value: '1.93'
+              - column:
+                 name: hull_weight
+                 value: '52'
+              - column:
+                 name: sail_area
+                 value: '12.14'
+        - insert:
+            tableName: dinghies
+            columns:
+              - column:
+                 name: name
+                 value: 'RS700'
+              - column:
+                 name: manufacturer
+                 value: 'RS'
+              - column:
+                 name: yardstick
+                 value: '845'
+              - column:
+                 name: crew
+                 value: '1'
+              - column:
+                 name: rig
+                 value: 'Una'
+              - column:
+                 name: hulls
+                 value: '1'
+              - column:
+                 name: symmetric_spinnaker
+                 value: 'false'
+              - column:
+                 name: asymmetric_spinnaker
+                 value: 'true'
+              - column:
+                 name: trapeze
+                 value: '1'
+              - column:
+                 name: length
+                 value: '4.68'
+              - column:
+                 name: beam
+                 value: '1.92'
+              - column:
+                 name: hull_weight
+                 value: '49'
+              - column:
+                 name: sail_area
+                 value: '12.8'
+              - column:
+                 name: spinnaker_area
+                 value: '16'
+        - insert:
+            tableName: dinghies
+            columns:
+              - column:
+                 name: name
+                 value: 'RS800'
+              - column:
+                 name: manufacturer
+                 value: 'RS'
+              - column:
+                 name: yardstick
+                 value: '799'
+              - column:
+                 name: crew
+                 value: '2'
+              - column:
+                 name: rig
+                 value: 'Sloop'
+              - column:
+                 name: hulls
+                 value: '1'
+              - column:
+                 name: symmetric_spinnaker
+                 value: 'false'
+              - column:
+                 name: asymmetric_spinnaker
+                 value: 'true'
+              - column:
+                 name: trapeze
+                 value: '2'
+              - column:
+                 name: length
+                 value: '4.8'
+              - column:
+                 name: beam
+                 value: '1.89'
+              - column:
+                 name: hull_weight
+                 value: '68'
+              - column:
+                 name: sail_area
+                 value: '16.5'
+              - column:
+                 name: spinnaker_area
+                 value: '21'
+        - insert:
+            tableName: dinghies
+            columns:
+              - column:
+                 name: name
+                 value: 'RS Zest'
+              - column:
+                 name: manufacturer
+                 value: 'RS'
+              - column:
+                 name: crew
+                 value: '2'
+              - column:
+                 name: rig
+                 value: 'Sloop'
+              - column:
+                 name: hulls
+                 value: '1'
+              - column:
+                 name: symmetric_spinnaker
+                 value: 'false'
+              - column:
+                 name: asymmetric_spinnaker
+                 value: 'false'
+              - column:
+                 name: trapeze
+                 value: '0'
+              - column:
+                 name: length
+                 value: '3.59'
+              - column:
+                 name: beam
+                 value: '1.47'
+              - column:
+                 name: hull_weight
+                 value: '73'
+              - column:
+                 name: sail_area
+                 value: '7.1'
+        - insert:
+            tableName: dinghies
+            columns:
+              - column:
+                 name: name
+                 value: 'RS Quest'
+              - column:
+                 name: manufacturer
+                 value: 'RS'
+              - column:
+                 name: crew
+                 value: '2'
+              - column:
+                 name: rig
+                 value: 'Sloop'
+              - column:
+                 name: hulls
+                 value: '1'
+              - column:
+                 name: symmetric_spinnaker
+                 value: 'true'
+              - column:
+                 name: asymmetric_spinnaker
+                 value: 'true'
+              - column:
+                 name: trapeze
+                 value: '0'
+              - column:
+                 name: length
+                 value: '4.29'
+              - column:
+                 name: beam
+                 value: '1.83'
+              - column:
+                 name: hull_weight
+                 value: '140'
+              - column:
+                 name: sail_area
+                 value: '11.1'
+              - column:
+                 name: spinnaker_area
+                 value: '11'
+        - insert:
+            tableName: dinghies
+            columns:
+              - column:
+                 name: name
+                 value: 'RS Toura'
+              - column:
+                 name: manufacturer
+                 value: 'RS'
+              - column:
+                 name: crew
+                 value: '2'
+              - column:
+                 name: rig
+                 value: 'Sloop'
+              - column:
+                 name: hulls
+                 value: '1'
+              - column:
+                 name: symmetric_spinnaker
+                 value: 'false'
+              - column:
+                 name: asymmetric_spinnaker
+                 value: 'true'
+              - column:
+                 name: trapeze
+                 value: '0'
+              - column:
+                 name: length
+                 value: '4.63'
+              - column:
+                 name: beam
+                 value: '1.95'
+              - column:
+                 name: hull_weight
+                 value: '175'
+              - column:
+                 name: sail_area
+                 value: '13.9'
+              - column:
+                 name: spinnaker_area
+                 value: '14.6'
+        - insert:
+            tableName: dinghies
+            columns:
+              - column:
+                 name: name
+                 value: 'RS Neo'
+              - column:
+                 name: manufacturer
+                 value: 'RS'
+              - column:
+                 name: crew
+                 value: '1'
+              - column:
+                 name: rig
+                 value: 'Una'
+              - column:
+                 name: hulls
+                 value: '1'
+              - column:
+                 name: symmetric_spinnaker
+                 value: 'false'
+              - column:
+                 name: asymmetric_spinnaker
+                 value: 'false'
+              - column:
+                 name: trapeze
+                 value: '0'
+              - column:
+                 name: length
+                 value: '3.53'
+              - column:
+                 name: beam
+                 value: '1.42'
+              - column:
+                 name: hull_weight
+                 value: '64'
+              - column:
+                 name: sail_area
+                 value: '6'
+        - insert:
+            tableName: dinghies
+            columns:
+              - column:
+                 name: name
+                 value: 'RS Venture'
+              - column:
+                 name: manufacturer
+                 value: 'RS'
+              - column:
+                 name: crew
+                 value: '2'
+              - column:
+                 name: rig
+                 value: 'Sloop'
+              - column:
+                 name: hulls
+                 value: '1'
+              - column:
+                 name: symmetric_spinnaker
+                 value: 'false'
+              - column:
+                 name: asymmetric_spinnaker
+                 value: 'true'
+              - column:
+                 name: trapeze
+                 value: '0'
+              - column:
+                 name: length
+                 value: '4.9'
+              - column:
+                 name: beam
+                 value: '2'
+              - column:
+                 name: hull_weight
+                 value: '195'
+              - column:
+                 name: sail_area
+                 value: '12.8'
+              - column:
+                 name: spinnaker_area
+                 value: '14'
+        - insert:
+            tableName: dinghies
+            columns:
+              - column:
+                 name: name
+                 value: 'RS Cat 16'
+              - column:
+                 name: manufacturer
+                 value: 'RS'
+              - column:
+                 name: crew
+                 value: '2'
+              - column:
+                 name: rig
+                 value: 'Sloop'
+              - column:
+                 name: hulls
+                 value: '2'
+              - column:
+                 name: symmetric_spinnaker
+                 value: 'false'
+              - column:
+                 name: asymmetric_spinnaker
+                 value: 'true'
+              - column:
+                 name: trapeze
+                 value: '1'
+              - column:
+                 name: length
+                 value: '4.7'
+              - column:
+                 name: beam
+                 value: '2.35'
+              - column:
+                 name: hull_weight
+                 value: '94'
+              - column:
+                 name: sail_area
+                 value: '12.33'
+              - column:
+                 name: spinnaker_area
+                 value: '12.82'
+        - insert:
+            tableName: dinghies
+            columns:
+              - column:
+                 name: name
+                 value: 'RS Cat 14'
+              - column:
+                 name: manufacturer
+                 value: 'RS'
+              - column:
+                 name: crew
+                 value: '2'
+              - column:
+                 name: rig
+                 value: 'Sloop'
+              - column:
+                 name: hulls
+                 value: '2'
+              - column:
+                 name: symmetric_spinnaker
+                 value: 'false'
+              - column:
+                 name: asymmetric_spinnaker
+                 value: 'true'
+              - column:
+                 name: trapeze
+                 value: '1'
+              - column:
+                 name: length
+                 value: '4.25'
+              - column:
+                 name: beam
+                 value: '2.14'
+              - column:
+                 name: hull_weight
+                 value: '80'
+              - column:
+                 name: sail_area
+                 value: '10.2'
+              - column:
+                 name: spinnaker_area
+                 value: '9'
+        - insert:
+            tableName: dinghies
+            columns:
+              - column:
+                 name: name
+                 value: '2000'
+              - column:
+                 name: manufacturer
+                 value: 'RS'
+              - column:
+                 name: crew
+                 value: '2'
+              - column:
+                 name: rig
+                 value: 'Sloop'
+              - column:
+                 name: hulls
+                 value: '1'
+              - column:
+                 name: symmetric_spinnaker
+                 value: 'false'
+              - column:
+                 name: asymmetric_spinnaker
+                 value: 'true'
+              - column:
+                 name: trapeze
+                 value: '0'
+              - column:
+                 name: length
+                 value: '4.4'
+              - column:
+                 name: beam
+                 value: '1.8'
+              - column:
+                 name: hull_weight
+                 value: '124'
+              - column:
+                 name: sail_area
+                 value: '11.7'
+              - column:
+                 name: spinnaker_area
+                 value: '10.12'

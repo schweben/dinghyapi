@@ -33,20 +33,20 @@ databaseChangeLog:
                   name: hulls
                   type: int
                   constraints: { nullable: false }
-                  defaultValue: 1
+                  defaultValue: '1'
               - column:
                   name: symmetric_spinnaker
                   type: boolean
-                  defaultValue: false
+                  defaultValue: 'false'
               - column:
                   name: asymmetric_spinnaker
                   type: boolean
-                  defaultValue: false
+                  defaultValue: 'false'
               - column:
                   name: trapeze
                   type: int
                   constraints: { nullable: false }
-                  defaultValue: 0
+                  defaultValue: '0'
               - column:
                   name: length
                   type: float
@@ -65,7 +65,7 @@ databaseChangeLog:
               - column:
                   name: spinnaker_area
                   type: float
-                  defaultValue: 0
+                  defaultValue: '0'
               - column:
                   name: logo_path
                   type: varchar(255)
