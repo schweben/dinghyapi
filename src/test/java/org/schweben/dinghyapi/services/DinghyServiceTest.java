@@ -43,15 +43,15 @@ public class DinghyServiceTest {
 	public void init() {
 		dummyDinghies = new ArrayList<>();
 		dummyDinghies.add(Dinghy.builder().name("Dummy 1").manufacturer("Dummy A").crew(1).symmetricSpinnaker(false)
-				.asymmetricSpinnaker(false).trapeze(0).build());
+				.asymmetricSpinnaker(false).trapeze(0).hulls(1).build());
 		dummyDinghies.add(Dinghy.builder().name("Dummy 2").manufacturer("Dummy A").crew(1).symmetricSpinnaker(false)
-				.asymmetricSpinnaker(true).trapeze(1).build());
+				.asymmetricSpinnaker(true).trapeze(1).hulls(1).build());
 		dummyDinghies.add(Dinghy.builder().name("Dummy 3").manufacturer("Dummy B").crew(2).symmetricSpinnaker(true)
-				.asymmetricSpinnaker(false).trapeze(0).build());
+				.asymmetricSpinnaker(false).trapeze(0).hulls(1).build());
 		dummyDinghies.add(Dinghy.builder().name("Dummy 4").manufacturer("Dummy B").crew(2).symmetricSpinnaker(false)
-				.asymmetricSpinnaker(true).trapeze(1).build());
+				.asymmetricSpinnaker(true).trapeze(1).hulls(1).build());
 		dummyDinghies.add(Dinghy.builder().name("Dummy 5").manufacturer("Dummy B").crew(2).symmetricSpinnaker(false)
-				.asymmetricSpinnaker(true).trapeze(2).build());
+				.asymmetricSpinnaker(true).trapeze(2).hulls(1).build());
 
 		mapper = Mappers.getMapper(DinghyMapper.class);
 		ReflectionTestUtils.setField(target, "mapper", mapper);
@@ -180,6 +180,33 @@ public class DinghyServiceTest {
 
 		Assertions.assertEquals(0, results.size());
 		Mockito.verify(mockDinghyRepository).findAll();
+	}
+
+	@Test
+	public void testGetDinghiesWithHulls() {
+		Mockito.when(mockDinghyRepository.findAll()).thenReturn(dummyDinghies);
+
+		List<DinghyDTO> results = target.getDinghiesWithHulls(1);
+
+		Assertions.assertEquals(5, results.size());
+		Assertions.assertEquals(DINGHY_CLASS_NAME + " 1", results.get(0).name());
+		Assertions.assertEquals(DINGHY_CLASS_NAME + " 2", results.get(1).name());
+		Assertions.assertEquals(DINGHY_CLASS_NAME + " 3", results.get(2).name());
+		Assertions.assertEquals(DINGHY_CLASS_NAME + " 4", results.get(3).name());
+		Assertions.assertEquals(DINGHY_CLASS_NAME + " 5", results.get(4).name());
+		Mockito.verify(mockDinghyRepository).findAll();
 
 	}
+
+	@Test
+	public void testGetDinghiesWithHulls_noneFound() {
+		Mockito.when(mockDinghyRepository.findAll()).thenReturn(dummyDinghies);
+
+		List<DinghyDTO> results = target.getDinghiesWithHulls(42);
+
+		Assertions.assertEquals(0, results.size());
+		Mockito.verify(mockDinghyRepository).findAll();
+
+	}
+
 }

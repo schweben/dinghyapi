@@ -50,8 +50,13 @@ public class DinghyService {
 				.toList());
 	}
 
-	public List<DinghyDTO> getDinghiesWithCrew(int crew) {
+	public List<DinghyDTO> getDinghiesWithCrew(int numCrew) {
 		List<Dinghy> allDinghies = dinghyRepository.findAll();
-		return mapper.map(allDinghies.stream().filter(dinghy -> dinghy.getCrew() == crew).toList());
+		return mapper.map(allDinghies.stream().filter(dinghy -> dinghy.getCrew() == numCrew).toList());
+	}
+
+	public List<DinghyDTO> getDinghiesWithHulls(int numHulls) {
+		List<Dinghy> allDingies = dinghyRepository.findAll();
+		return mapper.map(allDingies.stream().filter(dinghy -> dinghy.getHulls() == numHulls).toList());
 	}
 }
