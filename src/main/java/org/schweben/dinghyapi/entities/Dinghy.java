@@ -2,6 +2,8 @@ package org.schweben.dinghyapi.entities;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
+import jakarta.persistence.EnumType;
+import jakarta.persistence.Enumerated;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
@@ -37,7 +39,8 @@ public class Dinghy {
 	private Integer crew;
 
 	@Column(name = "RIG", nullable = false)
-	private String rig;
+	@Enumerated(EnumType.STRING)
+	private Rig rig;
 
 	@Column(name = "HULLS", nullable = false)
 	private Integer hulls;
