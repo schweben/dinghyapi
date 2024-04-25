@@ -30,6 +30,11 @@ databaseChangeLog:
                   type: varchar(50)
                   constraints: { nullable: false }
               - column:
+                  name: hulls
+                  type: int
+                  constraints: { nullable: false }
+                  defaultValue: 1
+              - column:
                   name: symmetric_spinnaker
                   type: boolean
                   defaultValue: false
@@ -41,6 +46,7 @@ databaseChangeLog:
                   name: trapeze
                   type: int
                   constraints: { nullable: false }
+                  defaultValue: 0
               - column:
                   name: length
                   type: float
@@ -49,6 +55,9 @@ databaseChangeLog:
                   name: beam
                   type: float
                   constraints: { nullable: false }
+              - column:
+                  name: hull_weight
+                  type: float
               - column:
                   name: sail_area
                   type: float

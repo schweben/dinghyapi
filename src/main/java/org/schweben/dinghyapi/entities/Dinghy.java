@@ -39,6 +39,9 @@ public class Dinghy {
 	@Column(name = "RIG", nullable = false)
 	private String rig;
 
+	@Column(name = "HULLS", nullable = false)
+	private Integer hulls;
+
 	@Column(name = "SYMMETRIC_SPINNAKER")
 	private boolean symmetricSpinnaker;
 
@@ -46,19 +49,22 @@ public class Dinghy {
 	private boolean asymmetricSpinnaker;
 
 	@Column(name = "TRAPEZE", nullable = false)
-	private int trapeze;
+	private Integer trapeze;
 
 	@Column(name = "LENGTH", nullable = false)
-	private float length;
+	private Float length;
 
 	@Column(name = "BEAM", nullable = false)
-	private float beam;
+	private Float beam;
+
+	@Column(name = "HULL_WEIGHT")
+	private Float hullWeight;
 
 	@Column(name = "SAIL_AREA", nullable = false)
-	private float sailArea;
+	private Float sailArea;
 
 	@Column(name = "SPINNAKER_AREA")
-	private float spinnakerArea;
+	private Float spinnakerArea;
 
 	@Column(name = "LOGO_PATH")
 	private String logoPath;
