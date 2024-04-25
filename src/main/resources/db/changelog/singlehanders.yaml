@@ -3,419 +3,1032 @@ databaseChangeLog:
       id: singlehanders-1
       author: Iain Soars
       changes:
-  - changeSet:
-      id: insert-data
-      author: Iain Soars
-      changes:
         - insert:
             tableName: dinghies
             columns:
               - column:
-                  name: name
-                  value: 'Blaze'
+                 name: name
+                 value: 'Blaze'
               - column:
-                  name: manufacturer
-                  value: null
+                 name: manufacturer
+                 value: 'Hartley Boats'
               - column:
-                  name: yardstick
-                  value: 1033
+                 name: yardstick
+                 value: '1033'
               - column:
-                  name: crew
-                  value: 1
+                 name: crew
+                 value: '1'
               - column:
-                  name: rig
-                  value: 'Una'
+                 name: rig
+                 value: 'Una'
               - column:
-                  name: symmetric_spinnaker
-                  value: false
+                 name: hulls
+                 value: '1'
               - column:
-                  name: asymmetric_spinnaker
-                  value: false
+                 name: symmetric_spinnaker
+                 value: 'false'
               - column:
-                  name: trapeze
-                  value: 0
+                 name: asymmetric_spinnaker
+                 value: 'false'
               - column:
-                  name: length
-                  value: -1
+                 name: trapeze
+                 value: '0'
               - column:
-                  name: beam
-                  value: -1
+                 name: length
+                 value: '4.2'
               - column:
-                  name: sail_area
-                  value: -1
+                 name: beam
+                 value: '2.48'
               - column:
-                  name: spinnaker_area
-                  value: -1
+                 name: hull_weight
+                 value: '72'
               - column:
-                  name: logo_path
-                  value: 'blaze-logo.jpg'
-              - column:
-                  name: image_path
-                  value: 'blaze-image.jpg'
+                 name: sail_area
+                 value: '10.4'
         - insert:
             tableName: dinghies
             columns:
               - column:
-                  name: name
-                  value: 'British Moth'
+                 name: name
+                 value: 'Byte CII'
               - column:
-                  name: manufacturer
-                  value: null
+                 name: manufacturer
+                 value: 'Hartley Boats'
               - column:
-                  name: yardstick
-                  value: 1165
+                 name: yardstick
+                 value: '1132'
               - column:
-                  name: crew
-                  value: 1
+                 name: crew
+                 value: '1'
               - column:
-                  name: rig
-                  value: 'Una'
+                 name: rig
+                 value: 'Una'
               - column:
-                  name: symmetric_spinnaker
-                  value: false
+                 name: hulls
+                 value: '1'
               - column:
-                  name: asymmetric_spinnaker
-                  value: false
+                 name: symmetric_spinnaker
+                 value: 'false'
               - column:
-                  name: trapeze
-                  value: 1
+                 name: asymmetric_spinnaker
+                 value: 'false'
               - column:
-                  name: length
-                  value: -1
+                 name: trapeze
+                 value: '0'
               - column:
-                  name: beam
-                  value: -1
+                 name: length
+                 value: '3.6'
               - column:
-                  name: sail_area
-                  value: -1
+                 name: beam
+                 value: '1.3'
               - column:
-                  name: spinnaker_area
-                  value: -1
+                 name: hull_weight
+                 value: '45'
               - column:
-                  name: logo_path
-                  value: 'british-moth-logo.jpg'
-              - column:
-                  name: image_path
-                  value: 'british-moth-image.jpg'
+                 name: sail_area
+                 value: '6.8'
         - insert:
             tableName: dinghies
             columns:
               - column:
-                  name: name
-                  value: 'Byte CII'
+                 name: name
+                 value: 'Contender'
               - column:
-                  name: manufacturer
-                  value: null
+                 name: manufacturer
+                 value: 'Hartley Boats'
               - column:
-                  name: yardstick
-                  value: 1132
+                 name: yardstick
+                 value: '966'
               - column:
-                  name: crew
-                  value: 1
+                 name: crew
+                 value: '1'
               - column:
-                  name: rig
-                  value: 'Una'
+                 name: rig
+                 value: 'Una'
               - column:
-                  name: symmetric_spinnaker
-                  value: false
+                 name: hulls
+                 value: '1'
               - column:
-                  name: asymmetric_spinnaker
-                  value: false
+                 name: symmetric_spinnaker
+                 value: 'false'
               - column:
-                  name: trapeze
-                  value: 0
+                 name: asymmetric_spinnaker
+                 value: 'false'
               - column:
-                  name: length
-                  value: -1
+                 name: trapeze
+                 value: '1'
               - column:
-                  name: beam
-                  value: -1
+                 name: length
+                 value: '4.88'
               - column:
-                  name: sail_area
-                  value: -1
+                 name: beam
+                 value: '1.5'
               - column:
-                  name: spinnaker_area
-                  value: -1
+                 name: hull_weight
+                 value: '83'
               - column:
-                  name: logo_path
-                  value: 'xxxxx-logo.jpg'
-              - column:
-                  name: image_path
-                  value: 'xxxxx-image.jpg'
+                 name: sail_area
+                 value: '10.3'
         - insert:
             tableName: dinghies
             columns:
               - column:
-                  name: name
-                  value: 'Comet'
+                 name: name
+                 value: 'Devoti D-One'
               - column:
-                  name: manufacturer
-                  value: null
+                 name: manufacturer
+                 value: 'Devoti'
               - column:
-                  name: yardstick
-                  value: 1210
+                 name: yardstick
+                 value: '950'
               - column:
-                  name: crew
-                  value: 1
+                 name: crew
+                 value: '1'
               - column:
-                  name: rig
-                  value: 'Una'
+                 name: rig
+                 value: 'Una'
               - column:
-                  name: symmetric_spinnaker
-                  value: false
+                 name: hulls
+                 value: '1'
               - column:
-                  name: asymmetric_spinnaker
-                  value: false
+                 name: symmetric_spinnaker
+                 value: 'false'
               - column:
-                  name: trapeze
-                  value: 0
+                 name: asymmetric_spinnaker
+                 value: 'true'
               - column:
-                  name: length
-                  value: -1
+                 name: trapeze
+                 value: '0'
               - column:
-                  name: beam
-                  value: -1
+                 name: length
+                 value: '4.23'
               - column:
-                  name: sail_area
-                  value: -1
+                 name: beam
+                 value: '2.31'
               - column:
-                  name: spinnaker_area
-                  value: -1
+                 name: hull_weight
+                 value: '75'
               - column:
-                  name: logo_path
-                  value: 'xxxxx-logo.jpg'
+                 name: sail_area
+                 value: '11.5'
               - column:
-                  name: image_path
-                  value: 'xxxxx-image.jpg'
+                 name: spinnaker_area
+                 value: '13.2'
         - insert:
             tableName: dinghies
             columns:
               - column:
-                  name: name
-                  value: 'Contender'
+                 name: name
+                 value: 'Devoti D-Zero'
               - column:
-                  name: manufacturer
-                  value: null
+                 name: manufacturer
+                 value: 'Devoti'
               - column:
-                  name: yardstick
-                  value: 966
+                 name: yardstick
+                 value: '1032'
               - column:
-                  name: crew
-                  value: 1
+                 name: crew
+                 value: '1'
               - column:
-                  name: rig
-                  value: 'Una'
+                 name: rig
+                 value: 'Una'
               - column:
-                  name: symmetric_spinnaker
-                  value: false
+                 name: hulls
+                 value: '1'
               - column:
-                  name: asymmetric_spinnaker
-                  value: false
+                 name: symmetric_spinnaker
+                 value: 'false'
               - column:
-                  name: trapeze
-                  value: 1
+                 name: asymmetric_spinnaker
+                 value: 'false'
               - column:
-                  name: length
-                  value: -1
+                 name: trapeze
+                 value: '0'
               - column:
-                  name: beam
-                  value: -1
+                 name: length
+                 value: '4.2'
               - column:
-                  name: sail_area
-                  value: -1
+                 name: beam
+                 value: '1.42'
               - column:
-                  name: spinnaker_area
-                  value: -1
+                 name: hull_weight
+                 value: '43'
               - column:
-                  name: logo_path
-                  value: 'xxxxx-logo.jpg'
-              - column:
-                  name: image_path
-                  value: 'xxxxx-image.jpg'
+                 name: sail_area
+                 value: '8.1'
         - insert:
             tableName: dinghies
             columns:
               - column:
-                  name: name
-                  value: 'Devoti D-One'
+                 name: name
+                 value: 'Europe'
               - column:
-                  name: manufacturer
-                  value: 'Devoti'
+                 name: yardstick
+                 value: '1147'
               - column:
-                  name: yardstick
-                  value: 950
+                 name: crew
+                 value: '1'
               - column:
-                  name: crew
-                  value: 1
+                 name: rig
+                 value: 'Una'
               - column:
-                  name: rig
-                  value: 'Una'
+                 name: hulls
+                 value: '1'
               - column:
-                  name: symmetric_spinnaker
-                  value: false
+                 name: symmetric_spinnaker
+                 value: 'false'
               - column:
-                  name: asymmetric_spinnaker
-                  value: true
+                 name: asymmetric_spinnaker
+                 value: 'false'
               - column:
-                  name: trapeze
-                  value: 0
+                 name: trapeze
+                 value: '0'
               - column:
-                  name: length
-                  value: -1
+                 name: length
+                 value: '3.35'
               - column:
-                  name: beam
-                  value: -1
+                 name: beam
+                 value: '1.38'
               - column:
-                  name: sail_area
-                  value: -1
+                 name: hull_weight
+                 value: '45'
               - column:
-                  name: spinnaker_area
-                  value: -1
-              - column:
-                  name: logo_path
-                  value: 'xxxxx-logo.jpg'
-              - column:
-                  name: image_path
-                  value: 'xxxxx-image.jpg'
+                 name: sail_area
+                 value: '7'
         - insert:
             tableName: dinghies
             columns:
               - column:
-                  name: name
-                  value: 'Devoti D-Zero'
+                 name: name
+                 value: 'Finn'
               - column:
-                  name: manufacturer
-                  value: 'Devoti'
+                 name: manufacturer
+                 value: 'Devoti'
               - column:
-                  name: yardstick
-                  value: 1032
+                 name: yardstick
+                 value: '1047'
               - column:
-                  name: crew
-                  value: 1
+                 name: crew
+                 value: '1'
               - column:
-                  name: rig
-                  value: 'Una'
+                 name: rig
+                 value: 'Una'
               - column:
-                  name: symmetric_spinnaker
-                  value: true
+                 name: hulls
+                 value: '1'
               - column:
-                  name: asymmetric_spinnaker
-                  value: false
+                 name: symmetric_spinnaker
+                 value: 'false'
               - column:
-                  name: trapeze
-                  value: 0
+                 name: asymmetric_spinnaker
+                 value: 'false'
               - column:
-                  name: length
-                  value: -1
+                 name: trapeze
+                 value: '0'
               - column:
-                  name: beam
-                  value: -1
+                 name: length
+                 value: '4.53'
               - column:
-                  name: sail_area
-                  value: -1
+                 name: beam
+                 value: '1.58'
               - column:
-                  name: spinnaker_area
-                  value: -1
+                 name: hull_weight
+                 value: '116'
               - column:
-                  name: logo_path
-                  value: 'xxxxx-logo.jpg'
-              - column:
-                  name: image_path
-                  value: 'xxxxx-image.jpg'
+                 name: sail_area
+                 value: '10'
         - insert:
             tableName: dinghies
             columns:
               - column:
-                  name: name
-                  value: 'Europe'
+                 name: name
+                 value: 'Hadron H2'
               - column:
-                  name: manufacturer
-                  value: null
+                 name: manufacturer
+                 value: 'Hadron Dinghies'
               - column:
-                  name: yardstick
-                  value: 1147
+                 name: yardstick
+                 value: '1045'
               - column:
-                  name: crew
-                  value: 1
+                 name: crew
+                 value: '1'
               - column:
-                  name: rig
-                  value: 'Una'
+                 name: rig
+                 value: 'Una'
               - column:
-                  name: symmetric_spinnaker
-                  value: false
+                 name: hulls
+                 value: '1'
               - column:
-                  name: asymmetric_spinnaker
-                  value: false
+                 name: symmetric_spinnaker
+                 value: 'false'
               - column:
-                  name: trapeze
-                  value: 0
+                 name: asymmetric_spinnaker
+                 value: 'false'
               - column:
-                  name: length
-                  value: -1
+                 name: trapeze
+                 value: '0'
               - column:
-                  name: beam
-                  value: -1
+                 name: length
+                 value: '4.2'
               - column:
-                  name: sail_area
-                  value: -1
+                 name: beam
+                 value: '1.95'
               - column:
-                  name: spinnaker_area
-                  value: -1
+                 name: hull_weight
+                 value: '56'
               - column:
-                  name: logo_path
-                  value: 'xxxxx-logo.jpg'
-              - column:
-                  name: image_path
-                  value: 'xxxxx-image.jpg'
+                 name: sail_area
+                 value: '9.3'
         - insert:
             tableName: dinghies
             columns:
               - column:
-                  name: name
-                  value: 'Finn'
+                 name: name
+                 value: 'K1'
               - column:
-                  name: manufacturer
-                  value: null
+                 name: manufacturer
+                 value: 'Ovington'
               - column:
-                  name: yardstick
-                  value: 1047
+                 name: yardstick
+                 value: '1070'
               - column:
-                  name: crew
-                  value: 1
+                 name: crew
+                 value: '1'
               - column:
-                  name: rig
-                  value: 'Una'
+                 name: rig
+                 value: 'Sloop'
               - column:
-                  name: symmetric_spinnaker
-                  value: false
+                 name: hulls
+                 value: '1'
               - column:
-                  name: asymmetric_spinnaker
-                  value: false
+                 name: symmetric_spinnaker
+                 value: 'false'
               - column:
-                  name: trapeze
-                  value: 0
+                 name: asymmetric_spinnaker
+                 value: 'false'
               - column:
-                  name: length
-                  value: -1
+                 name: trapeze
+                 value: '0'
               - column:
-                  name: beam
-                  value: -1
+                 name: length
+                 value: '4.57'
               - column:
-                  name: sail_area
-                  value: -1
+                 name: beam
+                 value: '1.3'
               - column:
-                  name: spinnaker_area
-                  value: -1
+                 name: hull_weight
+                 value: '107'
               - column:
-                  name: logo_path
-                  value: 'xxxxx-logo.jpg'
+                 name: sail_area
+                 value: '11'
+        - insert:
+            tableName: dinghies
+            columns:
               - column:
-                  name: image_path
-                  value: 'xxxxx-image.jpg'
+                 name: name
+                 value: 'Lightning 368'
               - column:
-                  name: sail_area
-                  value: -1
+                 name: yardstick
+                 value: '1160'
               - column:
-                  name: spinnaker_area
-                  value: -1
-
+                 name: crew
+                 value: '1'
+              - column:
+                 name: rig
+                 value: 'Una'
+              - column:
+                 name: hulls
+                 value: '1'
+              - column:
+                 name: symmetric_spinnaker
+                 value: 'false'
+              - column:
+                 name: asymmetric_spinnaker
+                 value: 'false'
+              - column:
+                 name: trapeze
+                 value: '0'
+              - column:
+                 name: length
+                 value: '3.68'
+              - column:
+                 name: beam
+                 value: '1.38'
+              - column:
+                 name: hull_weight
+                 value: '54'
+              - column:
+                 name: sail_area
+                 value: '7'
+        - insert:
+            tableName: dinghies
+            columns:
+              - column:
+                 name: name
+                 value: 'Musto Skiff'
+              - column:
+                 name: manufacturer
+                 value: 'Ovington'
+              - column:
+                 name: yardstick
+                 value: '837'
+              - column:
+                 name: crew
+                 value: '1'
+              - column:
+                 name: rig
+                 value: 'Una'
+              - column:
+                 name: hulls
+                 value: '1'
+              - column:
+                 name: symmetric_spinnaker
+                 value: 'false'
+              - column:
+                 name: asymmetric_spinnaker
+                 value: 'true'
+              - column:
+                 name: trapeze
+                 value: '1'
+              - column:
+                 name: length
+                 value: '4.55'
+              - column:
+                 name: beam
+                 value: '2.35'
+              - column:
+                 name: hull_weight
+                 value: '55'
+              - column:
+                 name: sail_area
+                 value: '11.8'
+              - column:
+                 name: spinnaker_area
+                 value: '15.5'
+        - insert:
+            tableName: dinghies
+            columns:
+              - column:
+                 name: name
+                 value: 'OK'
+              - column:
+                 name: yardstick
+                 value: '1100'
+              - column:
+                 name: crew
+                 value: '1'
+              - column:
+                 name: rig
+                 value: 'Una'
+              - column:
+                 name: hulls
+                 value: '1'
+              - column:
+                 name: symmetric_spinnaker
+                 value: 'false'
+              - column:
+                 name: asymmetric_spinnaker
+                 value: 'false'
+              - column:
+                 name: trapeze
+                 value: '0'
+              - column:
+                 name: length
+                 value: '4'
+              - column:
+                 name: beam
+                 value: '1.42'
+              - column:
+                 name: hull_weight
+                 value: '72'
+              - column:
+                 name: sail_area
+                 value: '8.95'
+        - insert:
+            tableName: dinghies
+            columns:
+              - column:
+                 name: name
+                 value: 'Optimist'
+              - column:
+                 name: manufacturer
+                 value: 'Devoti'
+              - column:
+                 name: yardstick
+                 value: '1628'
+              - column:
+                 name: crew
+                 value: '1'
+              - column:
+                 name: rig
+                 value: 'Una'
+              - column:
+                 name: hulls
+                 value: '1'
+              - column:
+                 name: symmetric_spinnaker
+                 value: 'false'
+              - column:
+                 name: asymmetric_spinnaker
+                 value: 'false'
+              - column:
+                 name: trapeze
+                 value: '0'
+              - column:
+                 name: length
+                 value: '2.36'
+              - column:
+                 name: beam
+                 value: '1.12'
+              - column:
+                 name: hull_weight
+                 value: '35'
+              - column:
+                 name: sail_area
+                 value: '3.3'
+        - insert:
+            tableName: dinghies
+            columns:
+              - column:
+                 name: name
+                 value: 'Phantom'
+              - column:
+                 name: manufacturer
+                 value: 'Ovington'
+              - column:
+                 name: yardstick
+                 value: '1000'
+              - column:
+                 name: crew
+                 value: '1'
+              - column:
+                 name: rig
+                 value: 'Una'
+              - column:
+                 name: hulls
+                 value: '1'
+              - column:
+                 name: symmetric_spinnaker
+                 value: 'false'
+              - column:
+                 name: asymmetric_spinnaker
+                 value: 'false'
+              - column:
+                 name: trapeze
+                 value: '0'
+              - column:
+                 name: length
+                 value: '4.42'
+              - column:
+                 name: beam
+                 value: '1.64'
+              - column:
+                 name: hull_weight
+                 value: '61'
+              - column:
+                 name: sail_area
+                 value: '9.8'
+        - insert:
+            tableName: dinghies
+            columns:
+              - column:
+                 name: name
+                 value: 'Solo'
+              - column:
+                 name: yardstick
+                 value: '1142'
+              - column:
+                 name: crew
+                 value: '1'
+              - column:
+                 name: rig
+                 value: 'Una'
+              - column:
+                 name: hulls
+                 value: '1'
+              - column:
+                 name: symmetric_spinnaker
+                 value: 'false'
+              - column:
+                 name: asymmetric_spinnaker
+                 value: 'false'
+              - column:
+                 name: trapeze
+                 value: '0'
+              - column:
+                 name: length
+                 value: '3.78'
+              - column:
+                 name: beam
+                 value: '1.55'
+              - column:
+                 name: hull_weight
+                 value: '70'
+              - column:
+                 name: sail_area
+                 value: '8.36'
+        - insert:
+            tableName: dinghies
+            columns:
+              - column:
+                 name: name
+                 value: 'Solution'
+              - column:
+                 name: yardstick
+                 value: '1105'
+              - column:
+                 name: crew
+                 value: '1'
+              - column:
+                 name: rig
+                 value: 'Una'
+              - column:
+                 name: hulls
+                 value: '1'
+              - column:
+                 name: symmetric_spinnaker
+                 value: 'false'
+              - column:
+                 name: asymmetric_spinnaker
+                 value: 'false'
+              - column:
+                 name: trapeze
+                 value: '0'
+              - column:
+                 name: length
+                 value: '3.9'
+              - column:
+                 name: beam
+                 value: '1.75'
+              - column:
+                 name: hull_weight
+                 value: '56'
+              - column:
+                 name: sail_area
+                 value: '8.5'
+        - insert:
+            tableName: dinghies
+            columns:
+              - column:
+                 name: name
+                 value: 'Streaker'
+              - column:
+                 name: manufacturer
+                 value: 'Hartley Boats'
+              - column:
+                 name: yardstick
+                 value: '1124'
+              - column:
+                 name: crew
+                 value: '1'
+              - column:
+                 name: rig
+                 value: 'Una'
+              - column:
+                 name: hulls
+                 value: '1'
+              - column:
+                 name: symmetric_spinnaker
+                 value: 'false'
+              - column:
+                 name: asymmetric_spinnaker
+                 value: 'false'
+              - column:
+                 name: trapeze
+                 value: '0'
+              - column:
+                 name: length
+                 value: '3.88'
+              - column:
+                 name: beam
+                 value: '1.37'
+              - column:
+                 name: hull_weight
+                 value: '48'
+              - column:
+                 name: sail_area
+                 value: '6.5'
+        - insert:
+            tableName: dinghies
+            columns:
+              - column:
+                 name: name
+                 value: 'Supernova'
+              - column:
+                 name: manufacturer
+                 value: 'Hartley Boats'
+              - column:
+                 name: yardstick
+                 value: '1075'
+              - column:
+                 name: crew
+                 value: '1'
+              - column:
+                 name: rig
+                 value: 'Una'
+              - column:
+                 name: hulls
+                 value: '1'
+              - column:
+                 name: symmetric_spinnaker
+                 value: 'false'
+              - column:
+                 name: asymmetric_spinnaker
+                 value: 'false'
+              - column:
+                 name: trapeze
+                 value: '0'
+              - column:
+                 name: length
+                 value: '4.39'
+              - column:
+                 name: beam
+                 value: '1.5'
+              - column:
+                 name: hull_weight
+                 value: '50'
+              - column:
+                 name: sail_area
+                 value: '8.22'
+        - insert:
+            tableName: dinghies
+            columns:
+              - column:
+                 name: name
+                 value: 'Topper 5.3'
+              - column:
+                 name: manufacturer
+                 value: 'Topper Sailboats'
+              - column:
+                 name: yardstick
+                 value: '1347'
+              - column:
+                 name: crew
+                 value: '1'
+              - column:
+                 name: rig
+                 value: 'Una'
+              - column:
+                 name: hulls
+                 value: '1'
+              - column:
+                 name: symmetric_spinnaker
+                 value: 'false'
+              - column:
+                 name: asymmetric_spinnaker
+                 value: 'false'
+              - column:
+                 name: trapeze
+                 value: '0'
+              - column:
+                 name: length
+                 value: '3.4'
+              - column:
+                 name: beam
+                 value: '1.2'
+              - column:
+                 name: hull_weight
+                 value: '45'
+              - column:
+                 name: sail_area
+                 value: '5.3'
+        - insert:
+            tableName: dinghies
+            columns:
+              - column:
+                 name: name
+                 value: 'Topper 4.2'
+              - column:
+                 name: manufacturer
+                 value: 'Topper Sailboats'
+              - column:
+                 name: yardstick
+                 value: '1400'
+              - column:
+                 name: crew
+                 value: '1'
+              - column:
+                 name: rig
+                 value: 'Una'
+              - column:
+                 name: hulls
+                 value: '1'
+              - column:
+                 name: symmetric_spinnaker
+                 value: 'false'
+              - column:
+                 name: asymmetric_spinnaker
+                 value: 'false'
+              - column:
+                 name: trapeze
+                 value: '0'
+              - column:
+                 name: length
+                 value: '3.4'
+              - column:
+                 name: beam
+                 value: '1.2'
+              - column:
+                 name: hull_weight
+                 value: '45'
+              - column:
+                 name: sail_area
+                 value: '4.2'
+        - insert:
+            tableName: dinghies
+            columns:
+              - column:
+                 name: name
+                 value: 'Fusion'
+              - column:
+                 name: manufacturer
+                 value: 'Fusion Sailboats'
+              - column:
+                 name: yardstick
+                 value: '1280'
+              - column:
+                 name: crew
+                 value: '1'
+              - column:
+                 name: rig
+                 value: 'Una'
+              - column:
+                 name: hulls
+                 value: '1'
+              - column:
+                 name: symmetric_spinnaker
+                 value: 'false'
+              - column:
+                 name: asymmetric_spinnaker
+                 value: 'false'
+              - column:
+                 name: trapeze
+                 value: '0'
+              - column:
+                 name: length
+                 value: '3.6'
+              - column:
+                 name: beam
+                 value: '1.45'
+              - column:
+                 name: hull_weight
+                 value: '62'
+              - column:
+                 name: sail_area
+                 value: '6.45'
+        - insert:
+            tableName: dinghies
+            columns:
+              - column:
+                 name: name
+                 value: 'International Canoe'
+              - column:
+                 name: yardstick
+                 value: '847'
+              - column:
+                 name: crew
+                 value: '1'
+              - column:
+                 name: rig
+                 value: 'Una'
+              - column:
+                 name: hulls
+                 value: '1'
+              - column:
+                 name: symmetric_spinnaker
+                 value: 'false'
+              - column:
+                 name: asymmetric_spinnaker
+                 value: 'false'
+              - column:
+                 name: trapeze
+                 value: '0'
+              - column:
+                 name: length
+                 value: '5.18'
+              - column:
+                 name: beam
+                 value: '1.01'
+              - column:
+                 name: hull_weight
+                 value: '50'
+              - column:
+                 name: sail_area
+                 value: '10'
+        - insert:
+            tableName: dinghies
+            columns:
+              - column:
+                 name: name
+                 value: 'Topper 6.4'
+              - column:
+                 name: manufacturer
+                 value: 'Topper Sailboats'
+              - column:
+                 name: yardstick
+                 value: '1294'
+              - column:
+                 name: crew
+                 value: '1'
+              - column:
+                 name: rig
+                 value: 'Una'
+              - column:
+                 name: hulls
+                 value: '1'
+              - column:
+                 name: symmetric_spinnaker
+                 value: 'false'
+              - column:
+                 name: asymmetric_spinnaker
+                 value: 'false'
+              - column:
+                 name: trapeze
+                 value: '0'
+              - column:
+                 name: length
+                 value: '3.4'
+              - column:
+                 name: beam
+                 value: '1.2'
+              - column:
+                 name: hull_weight
+                 value: '45'
+              - column:
+                 name: sail_area
+                 value: '6.4'
+        - insert:
+            tableName: dinghies
+            columns:
+              - column:
+                 name: name
+                 value: 'International Moth'
+              - column:
+                 name: yardstick
+                 value: '570'
+              - column:
+                 name: crew
+                 value: '1'
+              - column:
+                 name: rig
+                 value: 'Una'
+              - column:
+                 name: hulls
+                 value: '1'
+              - column:
+                 name: symmetric_spinnaker
+                 value: 'false'
+              - column:
+                 name: asymmetric_spinnaker
+                 value: 'false'
+              - column:
+                 name: trapeze
+                 value: '0'
+              - column:
+                 name: length
+                 value: '4.36'
+              - column:
+                 name: beam
+                 value: '2.25'
+              - column:
+                 name: sail_area
+                 value: '8.25'
+        - insert:
+            tableName: dinghies
+            columns:
+              - column:
+                 name: name
+                 value: 'Waszp'
+              - column:
+                 name: yardstick
+                 value: '570'
+              - column:
+                 name: crew
+                 value: '1'
+              - column:
+                 name: rig
+                 value: 'Una'
+              - column:
+                 name: hulls
+                 value: '1'
+              - column:
+                 name: symmetric_spinnaker
+                 value: 'false'
+              - column:
+                 name: asymmetric_spinnaker
+                 value: 'false'
+              - column:
+                 name: trapeze
+                 value: '0'
+              - column:
+                 name: length
+                 value: '3.35'
+              - column:
+                 name: beam
+                 value: '2.25'
+              - column:
+                 name: hull_weight
+                 value: '48'
+              - column:
+                 name: sail_area
+                 value: '8.2'
