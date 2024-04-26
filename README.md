@@ -4,6 +4,9 @@
 
 - [X] Caching
 - [ ] Complete Excel spreadsheet
-- [ ] More RequestMappings
+- [X] More RequestMappings
 - [ ] Class logos
 - [ ] Images
+- [ ] Swagger
+- [ ] Web frontend
+- [ ] Max crew (for cruising boats)

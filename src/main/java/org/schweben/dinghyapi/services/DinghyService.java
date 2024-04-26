@@ -38,6 +38,11 @@ public class DinghyService {
 		return mapper.map(allDinghies.stream().filter(Dinghy::isAsymmetricSpinnaker).toList());
 	}
 
+	public List<DinghyDTO> getDinghiesWithTrapeze() {
+		List<Dinghy> allDinghies = dinghyRepository.findAll();
+		return mapper.map(allDinghies.stream().filter(dinghy -> dinghy.getTrapeze() > 0).toList());
+	}
+
 	public List<DinghyDTO> getDinghiesWithTrapeze(int trapezes) {
 		List<Dinghy> allDinghies = dinghyRepository.findAll();
 		return mapper.map(allDinghies.stream().filter(dinghy -> dinghy.getTrapeze() == trapezes).toList());

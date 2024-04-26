@@ -31,14 +31,6 @@ public class DinghyServiceTest {
 	@Mock
 	private DinghyRepository mockDinghyRepository;
 
-	private DinghyMapper mapper;
-
-	@Mock
-	private Dinghy mockDinghy;
-
-	@Mock
-	private DinghyDTO mockDto;
-
 	@BeforeEach
 	public void init() {
 		dummyDinghies = new ArrayList<>();
@@ -53,12 +45,12 @@ public class DinghyServiceTest {
 		dummyDinghies.add(Dinghy.builder().name("Dummy 5").manufacturer("Dummy B").crew(2).symmetricSpinnaker(false)
 				.asymmetricSpinnaker(true).trapeze(2).hulls(1).build());
 
-		mapper = Mappers.getMapper(DinghyMapper.class);
+		DinghyMapper mapper = Mappers.getMapper(DinghyMapper.class);
 		ReflectionTestUtils.setField(target, "mapper", mapper);
 	}
 
 	@Test
-	public void testGetDinghies() {
+	public void givenName_whenGetDinghies_returnPopulatedList() {
 		Mockito.when(mockDinghyRepository.findAll()).thenReturn(dummyDinghies);
 
 		List<DinghyDTO> results = target.getDinghies(DINGHY_CLASS_NAME);
@@ -69,7 +61,7 @@ public class DinghyServiceTest {
 	}
 
 	@Test
-	public void testGetAllDinghies() {
+	public void givenNoParams_whenGetAllDinghies_returnPopulatedList() {
 		Mockito.when(mockDinghyRepository.findAll()).thenReturn(dummyDinghies);
 
 		List<DinghyDTO> results = target.getAllDinghies();
@@ -79,7 +71,7 @@ public class DinghyServiceTest {
 	}
 
 	@Test
-	public void testGetAllSymmetricDinghies() {
+	public void givenNoParams_whenGetAllSymmetricDinghies_returnPopulatedList() {
 		Mockito.when(mockDinghyRepository.findAll()).thenReturn(dummyDinghies);
 
 		List<DinghyDTO> results = target.getAllSymmetricDinghies();
@@ -90,7 +82,7 @@ public class DinghyServiceTest {
 	}
 
 	@Test
-	public void testGetAllAsymmetricDinghies() {
+	public void givenNoParams_whenGetAllAsymmetricDinghies_returnPopulatedList() {
 		Mockito.when(mockDinghyRepository.findAll()).thenReturn(dummyDinghies);
 
 		List<DinghyDTO> results = target.getAllAsymmetricDinghies();
@@ -103,7 +95,7 @@ public class DinghyServiceTest {
 	}
 
 	@Test
-	public void testGetDinghiesWithTrapeze_noTrapeze() {
+	public void givenSingleTrapeze_whenGetDinghiesWithTrapeze_returnPopulatedList() {
 		Mockito.when(mockDinghyRepository.findAll()).thenReturn(dummyDinghies);
 
 		List<DinghyDTO> results = target.getDinghiesWithTrapeze(1);
@@ -113,7 +105,7 @@ public class DinghyServiceTest {
 	}
 
 	@Test
-	public void testGetDinghiesWithTrapeze_twinTrapeze() {
+	public void givenDoubleTrapeze_whenGetDinghiesWithTrapeze_returnPopulatedList() {
 		Mockito.when(mockDinghyRepository.findAll()).thenReturn(dummyDinghies);
 
 		List<DinghyDTO> results = target.getDinghiesWithTrapeze(2);
@@ -124,7 +116,7 @@ public class DinghyServiceTest {
 	}
 
 	@Test
-	public void testGetDinghiesWithTrapeze_noneFound() {
+	public void givenInvalidTrapezeNum_whenGetDinghiesWithTrapeze_returnEmptyList() {
 		Mockito.when(mockDinghyRepository.findAll()).thenReturn(dummyDinghies);
 
 		List<DinghyDTO> results = target.getDinghiesWithTrapeze(42);
@@ -134,7 +126,7 @@ public class DinghyServiceTest {
 	}
 
 	@Test
-	public void testGetDinghiesFromManufacturer() {
+	public void givenManufacturer_whenGetDinghiesFromManufacturer_returnPopulatedList() {
 		Mockito.when(mockDinghyRepository.findAll()).thenReturn(dummyDinghies);
 
 		List<DinghyDTO> results = target.getDinghiesFromManufacturer(MANUFACTURER);
@@ -149,7 +141,7 @@ public class DinghyServiceTest {
 	}
 
 	@Test
-	public void testGetDinghiesFromManufacturer_noneFound() {
+	public void givenInvalidManufacturer_whenGetDinghiesFromManufacturer_returnEmptyList() {
 		Mockito.when(mockDinghyRepository.findAll()).thenReturn(dummyDinghies);
 
 		List<DinghyDTO> results = target.getDinghiesFromManufacturer("banana");
@@ -159,7 +151,7 @@ public class DinghyServiceTest {
 	}
 
 	@Test
-	public void testGetDinghiesWithCrew() {
+	public void givenCrewNum_whenGetDinghiesWithCrew_returnPopulatedList() {
 		Mockito.when(mockDinghyRepository.findAll()).thenReturn(dummyDinghies);
 
 		List<DinghyDTO> results = target.getDinghiesWithCrew(2);
@@ -169,11 +161,10 @@ public class DinghyServiceTest {
 		Assertions.assertEquals(DINGHY_CLASS_NAME + " 4", results.get(1).name());
 		Assertions.assertEquals(DINGHY_CLASS_NAME + " 5", results.get(2).name());
 		Mockito.verify(mockDinghyRepository).findAll();
-
 	}
 
 	@Test
-	public void testGetDinghiesWithCrew_noneFound() {
+	public void givenInvalidCrewNum_whenGetDinghiesWithCrew_returnEmptyList() {
 		Mockito.when(mockDinghyRepository.findAll()).thenReturn(dummyDinghies);
 
 		List<DinghyDTO> results = target.getDinghiesWithCrew(42);
@@ -183,7 +174,7 @@ public class DinghyServiceTest {
 	}
 
 	@Test
-	public void testGetDinghiesWithHulls() {
+	public void givenHullNum_whenGetDinghiesWithHulls_returnPopulatedList() {
 		Mockito.when(mockDinghyRepository.findAll()).thenReturn(dummyDinghies);
 
 		List<DinghyDTO> results = target.getDinghiesWithHulls(1);
@@ -195,18 +186,25 @@ public class DinghyServiceTest {
 		Assertions.assertEquals(DINGHY_CLASS_NAME + " 4", results.get(3).name());
 		Assertions.assertEquals(DINGHY_CLASS_NAME + " 5", results.get(4).name());
 		Mockito.verify(mockDinghyRepository).findAll();
-
 	}
 
 	@Test
-	public void testGetDinghiesWithHulls_noneFound() {
+	public void givenInvalidHullNum_whenGetWithHulls_returnEmptyList() {
 		Mockito.when(mockDinghyRepository.findAll()).thenReturn(dummyDinghies);
 
 		List<DinghyDTO> results = target.getDinghiesWithHulls(42);
 
 		Assertions.assertEquals(0, results.size());
 		Mockito.verify(mockDinghyRepository).findAll();
-
 	}
 
+	@Test
+	public void givenNoParams_whenGetDinghiesWithTrapeze_returnPopulatedList() {
+		Mockito.when(mockDinghyRepository.findAll()).thenReturn(dummyDinghies);
+
+		List<DinghyDTO> results = target.getDinghiesWithTrapeze();
+
+		Assertions.assertEquals(3, results.size());
+		Mockito.verify(mockDinghyRepository).findAll();
+	}
 }
