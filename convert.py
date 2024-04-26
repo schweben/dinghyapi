@@ -20,7 +20,7 @@ with open(excelFilename, "r") as excelCsv:
                               'manufacturer': manufacturer,
                               'yardstick': yardstick,
                               'crew': crew,
-                              'rig': rig,
+                              'rig': rig.upper(),
                               'hulls': hulls,
                               'symmetric_spinnaker': symmetric_spinnaker.lower(),
                               'asymmetric_spinnaker':asymmetric_spinnaker.lower(),

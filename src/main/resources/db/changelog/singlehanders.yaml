@@ -20,7 +20,7 @@ databaseChangeLog:
                  value: '1'
               - column:
                  name: rig
-                 value: 'Una'
+                 value: 'UNA'
               - column:
                  name: hulls
                  value: '1'
@@ -62,7 +62,7 @@ databaseChangeLog:
                  value: '1'
               - column:
                  name: rig
-                 value: 'Una'
+                 value: 'UNA'
               - column:
                  name: hulls
                  value: '1'
@@ -104,7 +104,7 @@ databaseChangeLog:
                  value: '1'
               - column:
                  name: rig
-                 value: 'Una'
+                 value: 'UNA'
               - column:
                  name: hulls
                  value: '1'
@@ -146,7 +146,7 @@ databaseChangeLog:
                  value: '1'
               - column:
                  name: rig
-                 value: 'Una'
+                 value: 'UNA'
               - column:
                  name: hulls
                  value: '1'
@@ -191,7 +191,7 @@ databaseChangeLog:
                  value: '1'
               - column:
                  name: rig
-                 value: 'Una'
+                 value: 'UNA'
               - column:
                  name: hulls
                  value: '1'
@@ -230,7 +230,7 @@ databaseChangeLog:
                  value: '1'
               - column:
                  name: rig
-                 value: 'Una'
+                 value: 'UNA'
               - column:
                  name: hulls
                  value: '1'
@@ -272,7 +272,7 @@ databaseChangeLog:
                  value: '1'
               - column:
                  name: rig
-                 value: 'Una'
+                 value: 'UNA'
               - column:
                  name: hulls
                  value: '1'
@@ -314,7 +314,7 @@ databaseChangeLog:
                  value: '1'
               - column:
                  name: rig
-                 value: 'Una'
+                 value: 'UNA'
               - column:
                  name: hulls
                  value: '1'
@@ -356,7 +356,7 @@ databaseChangeLog:
                  value: '1'
               - column:
                  name: rig
-                 value: 'Sloop'
+                 value: 'SLOOP'
               - column:
                  name: hulls
                  value: '1'
@@ -395,7 +395,7 @@ databaseChangeLog:
                  value: '1'
               - column:
                  name: rig
-                 value: 'Una'
+                 value: 'UNA'
               - column:
                  name: hulls
                  value: '1'
@@ -437,7 +437,7 @@ databaseChangeLog:
                  value: '1'
               - column:
                  name: rig
-                 value: 'Una'
+                 value: 'UNA'
               - column:
                  name: hulls
                  value: '1'
@@ -479,7 +479,7 @@ databaseChangeLog:
                  value: '1'
               - column:
                  name: rig
-                 value: 'Una'
+                 value: 'UNA'
               - column:
                  name: hulls
                  value: '1'
@@ -521,7 +521,7 @@ databaseChangeLog:
                  value: '1'
               - column:
                  name: rig
-                 value: 'Una'
+                 value: 'UNA'
               - column:
                  name: hulls
                  value: '1'
@@ -563,7 +563,7 @@ databaseChangeLog:
                  value: '1'
               - column:
                  name: rig
-                 value: 'Una'
+                 value: 'UNA'
               - column:
                  name: hulls
                  value: '1'
@@ -602,7 +602,7 @@ databaseChangeLog:
                  value: '1'
               - column:
                  name: rig
-                 value: 'Una'
+                 value: 'UNA'
               - column:
                  name: hulls
                  value: '1'
@@ -641,7 +641,7 @@ databaseChangeLog:
                  value: '1'
               - column:
                  name: rig
-                 value: 'Una'
+                 value: 'UNA'
               - column:
                  name: hulls
                  value: '1'
@@ -683,7 +683,7 @@ databaseChangeLog:
                  value: '1'
               - column:
                  name: rig
-                 value: 'Una'
+                 value: 'UNA'
               - column:
                  name: hulls
                  value: '1'
@@ -725,7 +725,7 @@ databaseChangeLog:
                  value: '1'
               - column:
                  name: rig
-                 value: 'Una'
+                 value: 'UNA'
               - column:
                  name: hulls
                  value: '1'
@@ -767,7 +767,7 @@ databaseChangeLog:
                  value: '1'
               - column:
                  name: rig
-                 value: 'Una'
+                 value: 'UNA'
               - column:
                  name: hulls
                  value: '1'
@@ -809,7 +809,7 @@ databaseChangeLog:
                  value: '1'
               - column:
                  name: rig
-                 value: 'Una'
+                 value: 'UNA'
               - column:
                  name: hulls
                  value: '1'
@@ -851,7 +851,7 @@ databaseChangeLog:
                  value: '1'
               - column:
                  name: rig
-                 value: 'Una'
+                 value: 'UNA'
               - column:
                  name: hulls
                  value: '1'
@@ -890,7 +890,7 @@ databaseChangeLog:
                  value: '1'
               - column:
                  name: rig
-                 value: 'Una'
+                 value: 'UNA'
               - column:
                  name: hulls
                  value: '1'
@@ -932,7 +932,7 @@ databaseChangeLog:
                  value: '1'
               - column:
                  name: rig
-                 value: 'Una'
+                 value: 'UNA'
               - column:
                  name: hulls
                  value: '1'
@@ -971,7 +971,7 @@ databaseChangeLog:
                  value: '1'
               - column:
                  name: rig
-                 value: 'Una'
+                 value: 'UNA'
               - column:
                  name: hulls
                  value: '1'
@@ -1007,7 +1007,7 @@ databaseChangeLog:
                  value: '1'
               - column:
                  name: rig
-                 value: 'Una'
+                 value: 'UNA'
               - column:
                  name: hulls
                  value: '1'
