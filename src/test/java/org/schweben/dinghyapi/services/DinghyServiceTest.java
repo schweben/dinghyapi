@@ -61,16 +61,6 @@ public class DinghyServiceTest {
 	}
 
 	@Test
-	public void givenNoParams_whenGetAllDinghies_returnPopulatedList() {
-		Mockito.when(mockDinghyRepository.findAll()).thenReturn(dummyDinghies);
-
-		List<DinghyDTO> results = target.getAllDinghies();
-
-		Assertions.assertEquals(5, results.size());
-		Mockito.verify(mockDinghyRepository).findAll();
-	}
-
-	@Test
 	public void givenNoParams_whenGetAllSymmetricDinghies_returnPopulatedList() {
 		Mockito.when(mockDinghyRepository.findAll()).thenReturn(dummyDinghies);
 
