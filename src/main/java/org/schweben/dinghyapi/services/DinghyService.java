@@ -5,6 +5,7 @@ import org.schweben.dinghyapi.entities.Dinghy;
 import org.schweben.dinghyapi.mappers.DinghyMapper;
 import org.schweben.dinghyapi.repositories.DinghyRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -17,51 +18,44 @@ public class DinghyService {
 	@Autowired
 	private DinghyMapper mapper;
 
-	public List<DinghyDTO> getAllDinghies() {
-		return mapper.map(dinghyRepository.findAll());
-	}
-
 	public List<DinghyDTO> getDinghies(String name) {
-		List<Dinghy> allDinghies = dinghyRepository.findAll();
 		return mapper.map(
-				allDinghies.stream().filter(dinghy -> dinghy.getName().toLowerCase().contains(name.toLowerCase()))
+				getAllDinghies().stream().filter(dinghy -> dinghy.getName().toLowerCase().contains(name.toLowerCase()))
 						.toList());
 	}
 
 	public List<DinghyDTO> getAllSymmetricDinghies() {
-		List<Dinghy> allDinghies = dinghyRepository.findAll();
-		return mapper.map(allDinghies.stream().filter(Dinghy::isSymmetricSpinnaker).toList());
+		return mapper.map(getAllDinghies().stream().filter(Dinghy::isSymmetricSpinnaker).toList());
 	}
 
 	public List<DinghyDTO> getAllAsymmetricDinghies() {
-		List<Dinghy> allDinghies = dinghyRepository.findAll();
-		return mapper.map(allDinghies.stream().filter(Dinghy::isAsymmetricSpinnaker).toList());
+		return mapper.map(getAllDinghies().stream().filter(Dinghy::isAsymmetricSpinnaker).toList());
 	}
 
 	public List<DinghyDTO> getDinghiesWithTrapeze() {
-		List<Dinghy> allDinghies = dinghyRepository.findAll();
-		return mapper.map(allDinghies.stream().filter(dinghy -> dinghy.getTrapeze() > 0).toList());
+		return mapper.map(getAllDinghies().stream().filter(dinghy -> dinghy.getTrapeze() > 0).toList());
 	}
 
 	public List<DinghyDTO> getDinghiesWithTrapeze(int trapezes) {
-		List<Dinghy> allDinghies = dinghyRepository.findAll();
-		return mapper.map(allDinghies.stream().filter(dinghy -> dinghy.getTrapeze() == trapezes).toList());
+		return mapper.map(getAllDinghies().stream().filter(dinghy -> dinghy.getTrapeze() == trapezes).toList());
 	}
 
 	public List<DinghyDTO> getDinghiesFromManufacturer(String manufacturer) {
-		List<Dinghy> allDinghies = dinghyRepository.findAll();
-		return mapper.map(allDinghies.stream()
+		return mapper.map(getAllDinghies().stream()
 				.filter(dinghy -> dinghy.getManufacturer().toLowerCase().contains(manufacturer.toLowerCase()))
 				.toList());
 	}
 
 	public List<DinghyDTO> getDinghiesWithCrew(int numCrew) {
-		List<Dinghy> allDinghies = dinghyRepository.findAll();
-		return mapper.map(allDinghies.stream().filter(dinghy -> dinghy.getCrew() == numCrew).toList());
+		return mapper.map(getAllDinghies().stream().filter(dinghy -> dinghy.getCrew() == numCrew).toList());
 	}
 
 	public List<DinghyDTO> getDinghiesWithHulls(int numHulls) {
-		List<Dinghy> allDingies = dinghyRepository.findAll();
-		return mapper.map(allDingies.stream().filter(dinghy -> dinghy.getHulls() == numHulls).toList());
+		return mapper.map(getAllDinghies().stream().filter(dinghy -> dinghy.getHulls() == numHulls).toList());
+	}
+
+	@Cacheable("dinghies")
+	private List<Dinghy> getAllDinghies() {
+		return dinghyRepository.findAll();
 	}
 }
