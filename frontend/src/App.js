@@ -22,13 +22,17 @@ function App() {
       });
   }, []);
 
+  function search() {
+    console.log('Searching');
+  }
+
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <div className="App-intro">
           <h2>Dinghies</h2>
-          <Search/>
+          <Search onSearchClick={() => search()}/>
           <Results dinghies={dinghies}/>
         </div>
       </header>

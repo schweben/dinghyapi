@@ -1,5 +1,7 @@
-export default function Search() {
+export default function Search(props) {
     return (
-        <div></div>
+        <div>
+            <button onClick={props.onSearchClick}>Search</button>
+        </div>
     )
 }
