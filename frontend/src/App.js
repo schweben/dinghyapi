@@ -3,10 +3,14 @@ import React, { useEffect, useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import Search from './components/Search';
+import Results from './components/Results';
+
 function App() {
   const [dinghies, setDinghies] = useState();
 
   useEffect(() => {
+    console.log('Getting data');
     fetch('/v1/dinghies/name/rs')
       .then((response) => response.json())
       .then((data) => {
@@ -24,11 +28,8 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <div className="App-intro">
           <h2>Dinghies</h2>
-          { dinghies.map((dinghy) =>
-            <div key="{dinghy.id}">
-              <h3>{dinghy.name}</h3>
-            </div>
-          )}
+          <Search/>
+          <Results dinghies={dinghies}/>
         </div>
       </header>
     </div>
