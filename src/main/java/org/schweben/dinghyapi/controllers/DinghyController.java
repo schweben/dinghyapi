@@ -8,6 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -19,6 +20,15 @@ public class DinghyController {
 
 	@Autowired
 	private DinghyService dinghyService;
+
+	@Operation(summary = "Find a dinghy with search options")
+	@GetMapping("")
+	public @ResponseBody List<DinghyDTO> getWithQueryFilters(@RequestParam(required = false) String name, @RequestParam(required = false) String manufacturer,
+		@RequestParam(required = false) Integer crew, @RequestParam(required = false) Boolean symmetric, @RequestParam(required = false) Boolean asymmetric,
+		@RequestParam(required = false) Boolean trapeze) {
+
+		return dinghyService.getDinghies(name);
+	}
 
 	@Operation(summary = "Find a dinghy class using its name")
 	@Parameter(name = "name", description = "Name (or partial name) of the dinghy class")
