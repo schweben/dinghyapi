@@ -1,7 +1,7 @@
 export default function Results(props) {
     return (
         <div>
-        { props.dinghies.map((dinghy) =>
+        { props.dinghies?.map((dinghy) =>
         <div key={dinghy.id}>
             <h3>{dinghy.name}</h3>
             <ul>

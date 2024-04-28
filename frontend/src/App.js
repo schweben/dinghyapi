@@ -3,14 +3,14 @@ import React, { useEffect, useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import Search from './components/Search';
+import SearchForm from './components/SearchForm';
 import Results from './components/Results';
 
 function App() {
   const [dinghies, setDinghies] = useState();
 
-  useEffect(() => {
-    console.log('Getting data');
+  function search(name, manufacturer, crew, symmetric, asymmetric, trapeze) {
+    console.log('Searching');
     fetch('/v1/dinghies/name/rs')
       .then((response) => response.json())
       .then((data) => {
@@ -20,10 +20,6 @@ function App() {
       .catch((err) => {
         console.log(err.message);
       });
-  }, []);
-
-  function search() {
-    console.log('Searching');
   }
 
   return (
@@ -32,7 +28,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <div className="App-intro">
           <h2>Dinghies</h2>
-          <Search onSearchClick={() => search()}/>
+          <SearchForm search={search}/>
           <Results dinghies={dinghies}/>
         </div>
       </header>
