@@ -19,7 +19,14 @@ public class DinghyService {
 	private DinghyMapper mapper;
 
 	public List<DinghyDTO> getDinghies(String name, String manufacturer, int crew, boolean symmetric, boolean asymmetric, boolean trapeze) {
-		return mapper.map(getAllDinghies().stream().toList());
+		return mapper.map(getAllDinghies().stream()
+				.filter(dinghy -> dinghy.getName() == null || dinghy.getName().toLowerCase().contains(name.toLowerCase()))
+				.filter(dinghy -> dinghy.getManufacturer() == null || dinghy.getManufacturer().toLowerCase().contains(manufacturer.toLowerCase()))
+				.filter(dinghy -> dinghy.getCrew() == 0 || dinghy.getCrew() == crew)
+				.filter(dinghy -> dinghy.isSymmetricSpinnaker() == symmetric)
+				.filter(dinghy -> dinghy.isAsymmetricSpinnaker() == asymmetric)
+				.filter(dinghy -> dinghy.getTrapeze() > 0)
+				.toList());
 	}
 
 	public List<DinghyDTO> getDinghies(String name) {
