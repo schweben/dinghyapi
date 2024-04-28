@@ -18,6 +18,10 @@ public class DinghyService {
 	@Autowired
 	private DinghyMapper mapper;
 
+	public List<DinghyDTO> getDinghies(String name, String manufacturer, int crew, boolean symmetric, boolean asymmetric, boolean trapeze) {
+		return mapper.map(getAllDinghies().stream().toList());
+	}
+
 	public List<DinghyDTO> getDinghies(String name) {
 		return mapper.map(
 				getAllDinghies().stream().filter(dinghy -> dinghy.getName().toLowerCase().contains(name.toLowerCase()))

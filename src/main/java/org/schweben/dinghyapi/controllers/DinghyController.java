@@ -24,10 +24,10 @@ public class DinghyController {
 	@Operation(summary = "Find a dinghy with search options")
 	@GetMapping("")
 	public @ResponseBody List<DinghyDTO> getWithQueryFilters(@RequestParam(required = false) String name, @RequestParam(required = false) String manufacturer,
-		@RequestParam(required = false) Integer crew, @RequestParam(required = false) Boolean symmetric, @RequestParam(required = false) Boolean asymmetric,
-		@RequestParam(required = false) Boolean trapeze) {
+		@RequestParam(required = false, defaultValue = "0") Integer crew, @RequestParam(required = false, defaultValue = "false") Boolean symmetric,
+		 @RequestParam(required = false, defaultValue = "false") boolean asymmetric, @RequestParam(required = false, defaultValue = "false") boolean trapeze) {
 
-		return dinghyService.getDinghies(name);
+		return dinghyService.getDinghies(name, manufacturer, crew, symmetric, asymmetric, trapeze);
 	}
 
 	@Operation(summary = "Find a dinghy class using its name")
