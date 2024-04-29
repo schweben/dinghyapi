@@ -301,4 +301,28 @@ public class DinghyServiceTest {
 		Assertions.assertEquals(5, results.get(4).id());
 		Mockito.verify(mockDinghyRepository).findAll();
 	}
+
+	@Test
+	public void givenNameAndDinghyWithNoName_whenGetDinghies_returnPopulatedList() {
+		Mockito.when(mockDinghyRepository.findAll()).thenReturn(
+				List.of(Dinghy.builder().id(1).manufacturer("Dummy").crew(1).symmetricSpinnaker(false)
+						.asymmetricSpinnaker(false).trapeze(0).hulls(1).build()));
+
+		List<DinghyDTO> results = target.getDinghies("Dummy", null, null, null, null, null);
+
+		Assertions.assertEquals(0, results.size());
+		Mockito.verify(mockDinghyRepository).findAll();
+	}
+
+	@Test
+	public void givenManufacturerAndDinghyWithNoManufacturer_whenGetDinghies_returnPopulatedList() {
+		Mockito.when(mockDinghyRepository.findAll()).thenReturn(
+				List.of(Dinghy.builder().id(1).name("Dummy").crew(1).symmetricSpinnaker(false)
+						.asymmetricSpinnaker(false).trapeze(0).hulls(1).build()));
+
+		List<DinghyDTO> results = target.getDinghies(null, "Dummy", null, null, null, null);
+
+		Assertions.assertEquals(0, results.size());
+		Mockito.verify(mockDinghyRepository).findAll();
+	}
 }
