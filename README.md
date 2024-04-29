@@ -8,5 +8,5 @@
 - [ ] Class logos
 - [ ] Images
 - [X] Swagger
-- [ ] Web frontend
+- [X] Web frontend
 - [ ] Min/Max crew
