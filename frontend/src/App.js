@@ -1,6 +1,5 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 
-import logo from './logo.svg';
 import './App.css';
 
 import SearchForm from './components/SearchForm';
@@ -44,14 +43,10 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <div className="App-intro">
-          <h2>Dinghies</h2>
+      <main>
           <SearchForm search={search}/>
           <Results dinghies={dinghies}/>
-        </div>
-      </header>
+      </main>
     </div>
   );
 }

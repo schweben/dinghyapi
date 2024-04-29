@@ -1,0 +1,30 @@
+.container {
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.container label {
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.container input[type=text]
+.container input[type=number]
+.container input[type=checkbox] {
+    display: inline-block;
+    width: 100%;
+    padding: 10px 10px;
+    margin-bottom: 20px;
+}
+
+.container input[type=submit] {
+    display: block;
+    padding: 15px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.container input[type=submit]:hover {
+}

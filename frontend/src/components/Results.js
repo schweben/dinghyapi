@@ -1,3 +1,5 @@
+import styles from '../styles/results.module.css';
+
 export default function Results(props) {
     return (
         <div>
