@@ -1,0 +1,16 @@
+.result {
+    border-top: solid 2px black;
+}
+
+.result ul {
+    list-style-type: none;
+}
+
+.result li {
+    margin-bottom: 10px;
+}
+
+.result input[type=checkbox] {
+    margin-left: 15px;
+    margin-right: 5px;
+}
