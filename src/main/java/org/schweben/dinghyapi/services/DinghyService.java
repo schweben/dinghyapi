@@ -18,15 +18,17 @@ public class DinghyService {
 	@Autowired
 	private DinghyMapper mapper;
 
-	public List<DinghyDTO> getDinghies(String name, String manufacturer, int crew, boolean symmetric, boolean asymmetric, boolean trapeze) {
+	public List<DinghyDTO> getDinghies(String name, String manufacturer, Integer crew, Boolean symmetric,
+			Boolean asymmetric, Boolean trapeze) {
+
 		return mapper.map(getAllDinghies().stream()
 				.filter(dinghy -> name == null || dinghy.getName().toLowerCase().contains(name.toLowerCase()))
-				.filter(dinghy -> manufacturer == null || dinghy.getManufacturer().toLowerCase().contains(manufacturer.toLowerCase()))
-				.filter(dinghy -> crew == 0 || dinghy.getCrew() == crew)
-				.filter(dinghy -> dinghy.isSymmetricSpinnaker() == symmetric)
-				.filter(dinghy -> dinghy.isAsymmetricSpinnaker() == asymmetric)
-				.filter(dinghy -> trapeze || dinghy.getTrapeze() > 0)
-				.toList());
+				.filter(dinghy -> manufacturer == null || dinghy.getManufacturer().toLowerCase()
+						.contains(manufacturer.toLowerCase()))
+				.filter(dinghy -> crew == null || dinghy.getCrew().equals(crew))
+				.filter(dinghy -> symmetric == null || dinghy.isSymmetricSpinnaker() == symmetric)
+				.filter(dinghy -> asymmetric == null || dinghy.isAsymmetricSpinnaker() == asymmetric)
+				.filter(dinghy -> trapeze == null || dinghy.getTrapeze() > 0).toList());
 	}
 
 	public List<DinghyDTO> getDinghies(String name) {
