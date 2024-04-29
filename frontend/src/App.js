@@ -41,10 +41,14 @@ function App() {
       });
   }
 
+  function clearResults() {
+    setDinghies(() => null);
+  }
+
   return (
     <div className="App">
       <main>
-          <SearchForm search={search}/>
+          <SearchForm search={search} clearResults={clearResults}/>
           <Results dinghies={dinghies}/>
       </main>
     </div>
