@@ -44,10 +44,13 @@ function App() {
   }
 
   return (
-    <div className="App">
+    <div>
+      <header>
+        <h1>Dinghy Search</h1>
+        <SearchForm search={search} clearResults={clearResults}/>
+      </header>
       <main>
-          <SearchForm search={search} clearResults={clearResults}/>
-          <Results dinghies={dinghies}/>
+        <Results dinghies={dinghies}/>
       </main>
     </div>
   );
