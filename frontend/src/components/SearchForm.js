@@ -50,6 +50,7 @@ export default function SearchForm(props) {
         </div>
         <div>
             <input type="submit" value="Search"/>
+            <input type="button" value="Clear" onClick={props.clearResults}/>
         </div>
         </form>
     )
