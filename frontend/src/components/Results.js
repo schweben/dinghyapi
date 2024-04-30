@@ -5,7 +5,9 @@ export default function Results(props) {
         <div>
         { props.dinghies?.map((dinghy) =>
         <div className={styles.result} key={dinghy.id}>
-            <img className={styles.resultBackground} src="http://localhost:8080/images/tera-pro.jpeg" alt={dinghy.name}/>
+            { dinghy.imagePath ? (
+                <img className={styles.resultBackground} src={dinghy.imagePath} alt={dinghy.name}/>
+            ) : null }
             <div className={styles.resultContent}>
                 <h2>{dinghy.name}</h2>
                 <ul>
