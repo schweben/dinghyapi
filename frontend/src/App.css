@@ -1,16 +1,18 @@
 header {
-    position: fixed;
-    width: 100%;
     background-color: white;
-    text-align: center;
+    border-bottom: solid 2px black;
     left: 50%;
+    position: fixed;
+    text-align: center;
     transform: translate(-50%, 0);
+    width: 100%;
     z-index: 10;
 }
 
 main {
-    position: absolute;
-    top: 500px;
-    z-index: 5;
     overflow: auto;
+    position: absolute;
+    top: 450px;
+    width: 100%;
+    z-index: 5;
 }

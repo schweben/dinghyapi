@@ -1,5 +1,22 @@
 .result {
-    border-top: solid 2px black;
+    overflow: hidden;
+    position: relative;
+    border-bottom: solid 2px black;
+    text-align: center;
+}
+
+.resultBackground {
+    height: 100%;
+    left: 0;
+    object-fit: contain;
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.resultContent {
+    position: relative;
 }
 
 .result ul {
