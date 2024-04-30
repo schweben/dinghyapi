@@ -29,11 +29,9 @@ function App() {
     if (trapeze) {
       queryString += "&trapeze=" + trapeze;
     }
-    console.log('Searching for ' + queryString);
     fetch(queryString)
       .then((response) => response.json())
       .then((data) => {
-        console.log(data);
         setDinghies(() => data);
       })
       .catch((err) => {
