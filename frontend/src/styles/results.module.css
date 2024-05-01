@@ -1,7 +1,9 @@
 .result {
+    border: solid 2px black;
+    border-radius: 5px;
+    margin: 10px;
     overflow: hidden;
     position: relative;
-    border-bottom: solid 2px black;
     text-align: center;
 }
 
@@ -13,6 +15,13 @@
     position: absolute;
     top: 0;
     width: 100%;
+}
+
+.classLogo {
+    background-color: white;
+    border: solid 2px black;
+    border-radius: 5px;
+    margin: 5px;
 }
 
 .resultContent {

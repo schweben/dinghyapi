@@ -10,6 +10,7 @@ export default function Results(props) {
             ) : null }
             <div className={styles.resultContent}>
                 <h2>{dinghy.name}</h2>
+                <img className={styles.classLogo} src={dinghy.logoPath} alt={`${dinghy.name} class logo`} width="100px"/>
                 <ul>
                     <li><span className={styles.label}>LOA:</span> {dinghy.length}m</li>
                         <li><span className={styles.label}>Beam:</span> {dinghy.beam}m</li>
