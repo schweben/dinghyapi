@@ -31,7 +31,6 @@ public interface DinghyMapper {
 
 	@BeforeMapping
 	default void beforeMapping(Dinghy dinghy, @Context String serverUrl) {
-		LOGGER.debug("Converting paths to {}", serverUrl);
 		if (dinghy.getImagePath() != null) {
 			dinghy.setImagePath(serverUrl + dinghy.getImagePath());
 			LOGGER.debug("Dinghy image path now {}", dinghy.getImagePath());

@@ -46,8 +46,11 @@ databaseChangeLog:
                   name: sail_area
                   value: '4.8'
               - column:
-                  name: logo_path
+                  name: image_path
                   value: '/images/tera-pro.jpg'
+              - column:
+                  name: logo_path
+                  value: '/images/logos/rs-tera-logo.png'
         - insert:
             tableName: dinghies
             columns:
@@ -91,8 +94,11 @@ databaseChangeLog:
                   name: sail_area
                   value: '3.7'
               - column:
-                  name: logo_path
+                  name: image_path
                   value: '/images/tera-sport.jpg'
+              - column:
+                  name: logo_path
+                  value: '/images/logos/rs-tera-logo.png'
         - insert:
             tableName: dinghies
             columns:
