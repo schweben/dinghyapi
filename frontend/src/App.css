@@ -1,6 +1,7 @@
 header {
     background-color: white;
     border-bottom: solid 2px black;
+    height: 260px;
     left: 50%;
     position: fixed;
     text-align: center;
@@ -12,7 +13,7 @@ header {
 main {
     overflow: auto;
     position: absolute;
-    top: 450px;
+    top: 260px;
     width: 100%;
     z-index: 5;
 }
