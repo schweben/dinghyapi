@@ -16,4 +16,4 @@ logging:
 server:
   protocol: http
   address: localhost
-  port: 8888
+  port: 8080
