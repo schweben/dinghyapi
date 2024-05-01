@@ -5,3 +5,15 @@ spring:
 dinghysearch:
   cache:
     ttl: 5000
+
+logging:
+  level:
+    org:
+      schweben:
+        dinghyapi:
+          mappers: DEBUG
+
+server:
+  protocol: http
+  address: localhost
+  port: 8888
