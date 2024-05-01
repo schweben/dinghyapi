@@ -52,6 +52,9 @@ function App() {
       <main>
         <Results dinghies={dinghies}/>
       </main>
+      <footer>
+        <p>If you want to use the API in your own projects check out the <a href="/swagger-ui/index.html">API documentation</a></p>
+      </footer>
     </div>
   );
 }
