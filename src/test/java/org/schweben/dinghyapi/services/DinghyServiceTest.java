@@ -22,6 +22,7 @@ import java.util.List;
 public class DinghyServiceTest {
 	private static final String DINGHY_CLASS_NAME = "Dummy";
 	private static final String MANUFACTURER = "Dummy";
+	private static final String SERVER_ADDRESS = "http://dummy";
 
 	List<Dinghy> dummyDinghies;
 
@@ -30,6 +31,9 @@ public class DinghyServiceTest {
 
 	@Mock
 	private DinghyRepository mockDinghyRepository;
+
+	@Mock
+	private ServerUtils mockServerUtils;
 
 	@BeforeEach
 	public void init() {
@@ -52,6 +56,8 @@ public class DinghyServiceTest {
 
 		DinghyMapper mapper = Mappers.getMapper(DinghyMapper.class);
 		ReflectionTestUtils.setField(target, "mapper", mapper);
+
+		Mockito.when(mockServerUtils.getServerAddress()).thenReturn(SERVER_ADDRESS);
 	}
 
 	@Test
