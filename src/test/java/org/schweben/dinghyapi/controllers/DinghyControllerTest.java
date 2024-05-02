@@ -18,6 +18,20 @@ public class DinghyControllerTest {
 	private DinghyService mockDinghyService;
 
 	@Test
+	public void givenSearchTerms_whenGetWithQueryFilters_callService() {
+		String name = "banana";
+		String manufacturer = "fred";
+		int crew = 2;
+		boolean symmetric = false;
+		boolean asymmetric = true;
+		boolean trapeze = true;
+
+		target.getWithQueryFilters(name, manufacturer, crew, symmetric, asymmetric, trapeze);
+
+		Mockito.verify(mockDinghyService).getDinghies(name, manufacturer, crew, symmetric, asymmetric, trapeze);
+	}
+
+	@Test
 	public void givenName_whenGetByName_callService() {
 		String name = "banana";
 

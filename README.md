@@ -3,10 +3,10 @@
 ## TODO
 
 - [X] Caching
-- [ ] Complete Excel spreadsheet
+- [X] Complete Excel spreadsheet
 - [X] More RequestMappings
 - [ ] Class logos
 - [ ] Images
-- [ ] Swagger
-- [ ] Web frontend
-- [ ] Max crew (for cruising boats)
+- [X] Swagger
+- [X] Web frontend
+- [ ] Min/Max crew
