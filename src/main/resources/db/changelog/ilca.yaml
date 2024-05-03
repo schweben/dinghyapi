@@ -45,6 +45,12 @@ databaseChangeLog:
               - column:
                  name: sail_area
                  value: '4.7'
+              - column:
+                 name: logo_path
+                 value: '/images/logos/ILCA.png'
+              - column:
+                 name: image_path
+                 value: '/images/ILCA4.jpg'
         - insert:
             tableName: dinghies
             columns:
@@ -87,6 +93,12 @@ databaseChangeLog:
               - column:
                  name: sail_area
                  value: '5.7'
+              - column:
+                 name: logo_path
+                 value: '/images/logos/ILCA.png'
+              - column:
+                 name: image_path
+                 value: '/images/ILCA6.jpg'
         - insert:
             tableName: dinghies
             columns:
@@ -128,4 +140,10 @@ databaseChangeLog:
                  value: '59'
               - column:
                  name: sail_area
-                 value: '7'
+                 value: '7.0'
+              - column:
+                 name: logo_path
+                 value: '/images/logos/ILCA.png'
+              - column:
+                 name: image_path
+                 value: '/images/ILCA7.jpg'
