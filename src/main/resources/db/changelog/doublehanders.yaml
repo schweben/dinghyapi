@@ -45,6 +45,12 @@ databaseChangeLog:
               - column:
                  name: spinnaker_area
                  value: '9.0'
+              - column:
+                 name: logo_path
+                 value: '/images/logos/420.png'
+              - column:
+                 name: image_path
+                 value: '/images/420.jpg'
         - insert:
             tableName: dinghies
             columns:
@@ -84,6 +90,12 @@ databaseChangeLog:
               - column:
                  name: spinnaker_area
                  value: '13.0'
+              - column:
+                 name: logo_path
+                 value: '/images/logos/470.png'
+              - column:
+                 name: image_path
+                 value: '/images/470.jpg'
         - insert:
             tableName: dinghies
             columns:
@@ -129,6 +141,12 @@ databaseChangeLog:
               - column:
                  name: spinnaker_area
                  value: '26.0'
+              - column:
+                 name: logo_path
+                 value: '/images/logos/international-505.png'
+              - column:
+                 name: image_path
+                 value: '/images/505.jpg'
         - insert:
             tableName: dinghies
             columns:
@@ -174,6 +192,12 @@ databaseChangeLog:
               - column:
                  name: spinnaker_area
                  value: '16.8'
+              - column:
+                 name: logo_path
+                 value: '/images/logos/29erlogo.jpg'
+              - column:
+                 name: image_path
+                 value: '/images/29er.jpg'
         - insert:
             tableName: dinghies
             columns:
@@ -216,6 +240,12 @@ databaseChangeLog:
               - column:
                  name: spinnaker_area
                  value: '38.0'
+              - column:
+                 name: logo_path
+                 value: '/images/logos/49er-49erfx.png'
+              - column:
+                 name: image_path
+                 value: '/images/49er.jpg'
         - insert:
             tableName: dinghies
             columns:
@@ -258,6 +288,12 @@ databaseChangeLog:
               - column:
                  name: spinnaker_area
                  value: '25.1'
+              - column:
+                 name: logo_path
+                 value: '/images/logos/49er-49erfx.png'
+              - column:
+                 name: image_path
+                 value: '/images/49er-fx.jpg'
         - insert:
             tableName: dinghies
             columns:
@@ -300,6 +336,12 @@ databaseChangeLog:
               - column:
                  name: sail_area
                  value: '11.6'
+              - column:
+                 name: logo_path
+                 value: '/images/logos/albacore.jog'
+              - column:
+                 name: image_path
+                 value: '/images/albacore.jpg'
         - insert:
             tableName: dinghies
             columns:
@@ -342,6 +384,12 @@ databaseChangeLog:
               - column:
                  name: spinnaker_area
                  value: '16.8'
+              - column:
+                 name: logo_path
+                 value: '/images/logos/alto.jpg'
+              - column:
+                 name: image_path
+                 value: '/images/alto.jpg'
         - insert:
             tableName: dinghies
             columns:
@@ -384,6 +432,12 @@ databaseChangeLog:
               - column:
                  name: spinnaker_area
                  value: '29.2'
+              - column:
+                 name: logo_path
+                 value: '/images/logos/b14.jpg'
+              - column:
+                 name: image_path
+                 value: '/images/b14.jpg'
         - insert:
             tableName: dinghies
             columns:
@@ -429,6 +483,12 @@ databaseChangeLog:
               - column:
                  name: spinnaker_area
                  value: '17.4'
+              - column:
+                 name: logo_path
+                 value: '/images/logos/buzz.jpg'
+              - column:
+                 name: image_path
+                 value: '/images/buzz.jpg'
         - insert:
             tableName: dinghies
             columns:
@@ -471,6 +531,12 @@ databaseChangeLog:
               - column:
                  name: spinnaker_area
                  value: '4.3'
+              - column:
+                 name: logo_path
+                 value: '/images/logos/cadet.png'
+              - column:
+                 name: image_path
+                 value: '/images/cadet.jpg'
         - insert:
             tableName: dinghies
             columns:
@@ -510,6 +576,12 @@ databaseChangeLog:
               - column:
                  name: spinnaker_area
                  value: '21.0'
+              - column:
+                 name: logo_path
+                 value: '/images/logos/cherub.png'
+              - column:
+                 name: image_path
+                 value: '/images/cherub.jpg'
         - insert:
             tableName: dinghies
             columns:
@@ -552,6 +624,12 @@ databaseChangeLog:
               - column:
                  name: spinnaker_area
                  value: '9.3'
+              - column:
+                 name: logo_path
+                 value: '/images/logos/comet-trio.png'
+              - column:
+                 name: image_path
+                 value: '/images/comet-trio.jpg'
         - insert:
             tableName: dinghies
             columns:
@@ -591,6 +669,12 @@ databaseChangeLog:
               - column:
                  name: sail_area
                  value: '10.7'
+              - column:
+                 name: logo_path
+                 value: '/images/logos/enterprise.png'
+              - column:
+                 name: image_path
+                 value: '/images/enterprise.jpg'
         - insert:
             tableName: dinghies
             columns:
@@ -633,6 +717,12 @@ databaseChangeLog:
               - column:
                  name: spinnaker_area
                  value: '13.0'
+              - column:
+                 name: logo_path
+                 value: '/images/logos/fireball-logo.png'
+              - column:
+                 name: image_path
+                 value: '/images/fireball.jpg'
         - insert:
             tableName: dinghies
             columns:
@@ -675,6 +765,12 @@ databaseChangeLog:
               - column:
                  name: sail_area
                  value: '8.4'
+              - column:
+                 name: logo_path
+                 value: '/images/logos/firefly.png'
+              - column:
+                 name: image_path
+                 value: '/images/firefly.jpg'
         - insert:
             tableName: dinghies
             columns:
@@ -720,6 +816,12 @@ databaseChangeLog:
               - column:
                  name: spinnaker_area
                  value: '14.2'
+              - column:
+                 name: logo_path
+                 value: '/images/logos/flying-fifteen.jpg'
+              - column:
+                 name: image_path
+                 value: '/images/flying-fifteen.jpg'
         - insert:
             tableName: dinghies
             columns:
@@ -762,6 +864,12 @@ databaseChangeLog:
               - column:
                  name: spinnaker_area
                  value: '8.4'
+              - column:
+                 name: logo_path
+                 value: '/images/logos/gp14.png'
+              - column:
+                 name: image_path
+                 value: '/images/gp14.jpg'
         - insert:
             tableName: dinghies
             columns:
@@ -801,6 +909,12 @@ databaseChangeLog:
               - column:
                  name: sail_area
                  value: '10.0'
+              - column:
+                 name: logo_path
+                 value: '/images/logos/graduate.png'
+              - column:
+                 name: image_path
+                 value: '/images/graduate.jpg'
         - insert:
             tableName: dinghies
             columns:
@@ -840,6 +954,12 @@ databaseChangeLog:
               - column:
                  name: sail_area
                  value: '9.8'
+              - column:
+                 name: logo_path
+                 value: '/images/logos/hornet.jpg'
+              - column:
+                 name: image_path
+                 value: '/images/hornet.jpg'
         - insert:
             tableName: dinghies
             columns:
@@ -882,6 +1002,12 @@ databaseChangeLog:
               - column:
                  name: spinnaker_area
                  value: '32.0'
+              - column:
+                 name: logo_path
+                 value: '/images/logos/i14-logo.png'
+              - column:
+                 name: image_path
+                 value: '/images/international-14.jpg'
         - insert:
             tableName: dinghies
             columns:
@@ -924,6 +1050,12 @@ databaseChangeLog:
               - column:
                  name: spinnaker_area
                  value: '29.0'
+              - column:
+                 name: logo_path
+                 value: '/images/logos/k6logo.png'
+              - column:
+                 name: image_path
+                 value: '/images/k6.jpg'
         - insert:
             tableName: dinghies
             columns:
@@ -966,6 +1098,12 @@ databaseChangeLog:
               - column:
                  name: spinnaker_area
                  value: '11.2'
+              - column:
+                 name: logo_path
+                 value: '/images/logos/kestrel-logo.png'
+              - column:
+                 name: image_path
+                 value: '/images/kestrel.jpg'
         - insert:
             tableName: dinghies
             columns:
@@ -1008,6 +1146,12 @@ databaseChangeLog:
               - column:
                  name: spinnaker_area
                  value: '7.4'
+              - column:
+                 name: logo_path
+                 value: '/images/logos/lark-logo.png'
+              - column:
+                 name: image_path
+                 value: '/images/lark.jpg'
         - insert:
             tableName: dinghies
             columns:
@@ -1050,6 +1194,12 @@ databaseChangeLog:
               - column:
                  name: spinnaker_area
                  value: '10.0'
+              - column:
+                 name: logo_path
+                 value: '/images/logos/merlin-rocket.jpg'
+              - column:
+                 name: image_path
+                 value: '/images/merlin-rocket.jpg'
         - insert:
             tableName: dinghies
             columns:
@@ -1092,6 +1242,12 @@ databaseChangeLog:
               - column:
                  name: spinnaker_area
                  value: '7.4'
+              - column:
+                 name: logo_path
+                 value: '/images/logos/miracle.png'
+              - column:
+                 name: image_path
+                 value: '/images/miracle.jpg'
         - insert:
             tableName: dinghies
             columns:
@@ -1134,6 +1290,12 @@ databaseChangeLog:
               - column:
                  name: spinnaker_area
                  value: '4.4'
+              - column:
+                 name: logo_path
+                 value: '/images/logos/mirror.jpg'
+              - column:
+                 name: image_path
+                 value: '/images/mirror.jpg'
         - insert:
             tableName: dinghies
             columns:
@@ -1173,12 +1335,21 @@ databaseChangeLog:
               - column:
                  name: sail_area
                  value: '8.6'
+              - column:
+                 name: logo_path
+                 value: '/images/logos/national-12.jpg'
+              - column:
+                 name: image_path
+                 value: '/images/national-12.jpg'
         - insert:
             tableName: dinghies
             columns:
               - column:
                  name: name
                  value: 'Osprey'
+              - column:
+                 name: manufacturer
+                 value: 'Hartley Boats'
               - column:
                  name: yardstick
                  value: '937'
@@ -1215,6 +1386,12 @@ databaseChangeLog:
               - column:
                  name: spinnaker_area
                  value: '17.2'
+              - column:
+                 name: logo_path
+                 value: '/images/logos/osprey.png'
+              - column:
+                 name: image_path
+                 value: '/images/osprey.jpg'
         - insert:
             tableName: dinghies
             columns:
@@ -1257,6 +1434,12 @@ databaseChangeLog:
               - column:
                  name: spinnaker_area
                  value: '11.1'
+              - column:
+                 name: logo_path
+                 value: '/images/logos/scorpion.jpg'
+              - column:
+                 name: image_path
+                 value: '/images/scorpion.jpg'
         - insert:
             tableName: dinghies
             columns:
@@ -1302,6 +1485,12 @@ databaseChangeLog:
               - column:
                  name: spinnaker_area
                  value: '12.5'
+              - column:
+                 name: logo_path
+                 value: '/images/logos/seafly.jpg'
+              - column:
+                 name: image_path
+                 value: '/images/seafly.jpg'
         - insert:
             tableName: dinghies
             columns:
@@ -1341,6 +1530,12 @@ databaseChangeLog:
               - column:
                  name: sail_area
                  value: '11.8'
+              - column:
+                 name: logo_path
+                 value: '/images/logos/tasar-logo.png'
+              - column:
+                 name: image_path
+                 value: '/images/tasar.jpg'
         - insert:
             tableName: dinghies
             columns:
@@ -1383,6 +1578,12 @@ databaseChangeLog:
               - column:
                  name: spinnaker_area
                  value: '9.9'
+              - column:
+                 name: logo_path
+                 value: '/images/logos/wanderer.jpg'
+              - column:
+                 name: image_path
+                 value: '/images/wanderer.jpg'
         - insert:
             tableName: dinghies
             columns:
@@ -1425,3 +1626,9 @@ databaseChangeLog:
               - column:
                  name: spinnaker_area
                  value: '13.5'
+              - column:
+                 name: logo_path
+                 value: '/images/logos/wayfarer.png'
+              - column:
+                 name: image_path
+                 value: '/images/wayfarer.jpg'

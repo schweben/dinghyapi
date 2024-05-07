@@ -42,6 +42,12 @@ databaseChangeLog:
               - column:
                  name: sail_area
                  value: '8.0'
+              - column:
+                 name: logo_path
+                 value: '/images/logos/challenger.jpg'
+              - column:
+                 name: image_path
+                 value: '/images/challenger.jpg'
         - insert:
             tableName: dinghies
             columns:
@@ -81,6 +87,12 @@ databaseChangeLog:
               - column:
                  name: sail_area
                  value: '12.3'
+              - column:
+                 name: logo_path
+                 value: '/images/logos/dart-15.jpg'
+              - column:
+                 name: image_path
+                 value: '/images/dart-15.jpg'
         - insert:
             tableName: dinghies
             columns:
@@ -120,6 +132,12 @@ databaseChangeLog:
               - column:
                  name: sail_area
                  value: '16.1'
+              - column:
+                 name: logo_path
+                 value: '/images/logos/dart-18.png'
+              - column:
+                 name: image_path
+                 value: '/images/dart-18.jpg'
         - insert:
             tableName: dinghies
             columns:
@@ -162,6 +180,12 @@ databaseChangeLog:
               - column:
                  name: spinnaker_area
                  value: '21.0'
+              - column:
+                 name: logo_path
+                 value: '/images/logos/hurricane.jpg'
+              - column:
+                 name: image_path
+                 value: '/images/hurricane.jpg'
         - insert:
             tableName: dinghies
             columns:
@@ -204,6 +228,12 @@ databaseChangeLog:
               - column:
                  name: spinnaker_area
                  value: '15.9'
+              - column:
+                 name: logo_path
+                 value: '/images/logos/nacra-15.jpg'
+              - column:
+                 name: image_path
+                 value: '/images/nacra-15.jpg'
         - insert:
             tableName: dinghies
             columns:
@@ -246,6 +276,12 @@ databaseChangeLog:
               - column:
                  name: spinnaker_area
                  value: '17.8'
+              - column:
+                 name: logo_path
+                 value: '/images/logos/nacra-17.png'
+              - column:
+                 name: image_path
+                 value: '/images/nacra-17.jpg'
         - insert:
             tableName: dinghies
             columns:
@@ -288,6 +324,12 @@ databaseChangeLog:
               - column:
                  name: spinnaker_area
                  value: '16.5'
+              - column:
+                 name: logo_path
+                 value: '/images/logos/nacra-500.png'
+              - column:
+                 name: image_path
+                 value: '/images/nacra-500.jpg'
         - insert:
             tableName: dinghies
             columns:
@@ -330,6 +372,12 @@ databaseChangeLog:
               - column:
                  name: spinnaker_area
                  value: '21.0'
+              - column:
+                 name: logo_path
+                 value: '/images/logos/nacra-570.png'
+              - column:
+                 name: image_path
+                 value: '/images/nacra-570.jpg'
         - insert:
             tableName: dinghies
             columns:
@@ -372,6 +420,12 @@ databaseChangeLog:
               - column:
                  name: spinnaker_area
                  value: '17.5'
+              - column:
+                 name: logo_path
+                 value: '/images/logos/nacra-f16.png'
+              - column:
+                 name: image_path
+                 value: '/images/nacra-f16.jpg'
         - insert:
             tableName: dinghies
             columns:
@@ -414,6 +468,12 @@ databaseChangeLog:
               - column:
                  name: spinnaker_area
                  value: '21.0'
+              - column:
+                 name: logo_path
+                 value: '/images/logos/nacra-f18.png'
+              - column:
+                 name: image_path
+                 value: '/images/nacra-f18.jpg'
         - insert:
             tableName: dinghies
             columns:
@@ -456,6 +516,12 @@ databaseChangeLog:
               - column:
                  name: spinnaker_area
                  value: '27.7'
+              - column:
+                 name: logo_path
+                 value: '/images/logos/nacra-f20.png'
+              - column:
+                 name: image_path
+                 value: '/images/nacra-f20.jpg'
         - insert:
             tableName: dinghies
             columns:
@@ -498,3 +564,9 @@ databaseChangeLog:
               - column:
                  name: spinnaker_area
                  value: '18.0'
+              - column:
+                 name: logo_path
+                 value: '/images/logos/spitfire-logo.jpg'
+              - column:
+                 name: image_path
+                 value: '/images/spitfire.jpg'

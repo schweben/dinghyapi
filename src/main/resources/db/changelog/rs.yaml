@@ -95,7 +95,7 @@ databaseChangeLog:
                  value: '5.2'
               - column:
                  name: logo_path
-                 value: '/images/logos/RSAeroLogo200x52.jpg'
+                 value: '/images/logos/rs-aero.jpg'
               - column:
                  name: image_path
                  value: '/images/aero-5.jpg'
@@ -143,7 +143,7 @@ databaseChangeLog:
                  value: '6.3'
               - column:
                  name: logo_path
-                 value: '/images/logos/RSAeroLogo200x52.jpg'
+                 value: '/images/logos/rs-aero.jpg'
               - column:
                  name: image_path
                  value: '/images/aero-6.jpg'
@@ -191,7 +191,7 @@ databaseChangeLog:
                  value: '7.4'
               - column:
                  name: logo_path
-                 value: '/images/logos/RSAeroLogo200x52.jpg'
+                 value: '/images/logos/rs-aero.jpg'
               - column:
                  name: image_path
                  value: '/images/aero-7.jpg'
@@ -239,7 +239,7 @@ databaseChangeLog:
                  value: '8.9'
               - column:
                  name: logo_path
-                 value: '/images/logos/RSAeroLogo200x52.jpg'
+                 value: '/images/logos/rs-aero.jpg'
               - column:
                  name: image_path
                  value: '/images/aero-9.jpg'
@@ -287,7 +287,7 @@ databaseChangeLog:
                  value: '9.0'
               - column:
                  name: logo_path
-                 value: '/images/logos/RSCat14.png'
+                 value: '/images/logos/rs-cat14.png'
               - column:
                  name: image_path
                  value: '/images/rs-cat14.jpg'
@@ -335,7 +335,7 @@ databaseChangeLog:
                  value: '12.8'
               - column:
                  name: logo_path
-                 value: '/images/logos/rscat16.png'
+                 value: '/images/logos/rs-cat16.png'
               - column:
                  name: image_path
                  value: '/images/rs-cat16.jpg'
@@ -386,7 +386,7 @@ databaseChangeLog:
                  value: '7.0'
               - column:
                  name: logo_path
-                 value: '/images/logos/RS-Feva-logo.jpg'
+                 value: '/images/logos/rs-feva.jpg'
               - column:
                  name: image_path
                  value: '/images/rsfeva.jpg'
@@ -431,7 +431,7 @@ databaseChangeLog:
                  value: '6.0'
               - column:
                  name: logo_path
-                 value: '/images/logos/RS-neo-horizontal.png'
+                 value: '/images/logos/rs-neo.png'
               - column:
                  name: image_path
                  value: '/images/rs-neo.jpg'
@@ -479,7 +479,7 @@ databaseChangeLog:
                  value: '11.0'
               - column:
                  name: logo_path
-                 value: '/images/logos/RSQuest.png'
+                 value: '/images/logos/rs-quest.png'
               - column:
                  name: image_path
                  value: '/images/rs-quest.jpg'
@@ -527,7 +527,7 @@ databaseChangeLog:
                  value: '4.8'
               - column:
                  name: logo_path
-                 value: '/images/logos/RSTera.png'
+                 value: '/images/logos/rs-tera.png'
               - column:
                  name: image_path
                  value: '/images/tera-pro.jpg'
@@ -575,7 +575,7 @@ databaseChangeLog:
                  value: '3.7'
               - column:
                  name: logo_path
-                 value: '/images/logos/RSTera.png'
+                 value: '/images/logos/rs-tera.png'
               - column:
                  name: image_path
                  value: '/images/tera-sport.jpg'
@@ -623,7 +623,7 @@ databaseChangeLog:
                  value: '14.6'
               - column:
                  name: logo_path
-                 value: '/images/logos/Toura-Master-300x171.png'
+                 value: '/images/logos/rs-toura.png'
               - column:
                  name: image_path
                  value: '/images/rs-toura.jpg'
@@ -674,7 +674,7 @@ databaseChangeLog:
                  value: '9.9'
               - column:
                  name: logo_path
-                 value: '/images/logos/RSVareo-logo.png'
+                 value: '/images/logos/rs-vareo.png'
               - column:
                  name: image_path
                  value: '/images/rs-vareo.jpg'
@@ -722,7 +722,7 @@ databaseChangeLog:
                  value: '14.0'
               - column:
                  name: logo_path
-                 value: '/images/logos/RSVenture.png'
+                 value: '/images/logos/rs-venture.png'
               - column:
                  name: image_path
                  value: '/images/rs-venture.jpg'
@@ -773,7 +773,7 @@ databaseChangeLog:
                  value: '12.0'
               - column:
                  name: logo_path
-                 value: '/images/logos/RSVision.jpg'
+                 value: '/images/logos/rs-vision.jpg'
               - column:
                  name: image_path
                  value: '/images/rs-vision.jpg'
@@ -818,7 +818,7 @@ databaseChangeLog:
                  value: '7.1'
               - column:
                  name: logo_path
-                 value: '/images/logos/Logo-RS-Zest.png'
+                 value: '/images/logos/rs-zest.png'
               - column:
                  name: image_path
                  value: '/images/rs-zest.jpg'
@@ -1067,7 +1067,7 @@ databaseChangeLog:
                  value: '13.9'
               - column:
                  name: logo_path
-                 value: '/images/logos/RS400-magenta.png'
+                 value: '/images/logos/RS400.png'
               - column:
                  name: image_path
                  value: '/images/rs400.jpg'
@@ -1166,7 +1166,7 @@ databaseChangeLog:
                  value: '12.1'
               - column:
                  name: logo_path
-                 value: '/images/logos/RS600_Logo_New_Black-300x114.png'
+                 value: '/images/logos/RS600.png'
               - column:
                  name: image_path
                  value: '/images/rs600.jpg'
