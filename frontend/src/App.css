@@ -1,4 +1,6 @@
 header {
+    background-image: url(images/sea.jpg);
+    background-size: 100%;
     background-color: white;
     border-bottom: 2px solid black;
     height: 290px;
