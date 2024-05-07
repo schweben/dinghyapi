@@ -656,7 +656,7 @@ databaseChangeLog:
                  value: '7.0'
               - column:
                  name: logo_path
-                 value: '/images/logos/lightning-369.png'
+                 value: '/images/logos/lightning-368.png'
               - column:
                  name: image_path
                  value: '/images/lightning-368.jpg'

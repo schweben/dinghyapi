@@ -10,7 +10,7 @@ export default function Results(props) {
             ) : null }
             <h2>{dinghy.name}</h2>
             { dinghy.logoPath ? (
-                <img className={styles.classLogo} src={dinghy.logoPath} alt={`${dinghy.name} class logo`} width="100px"/>
+                <img className={styles.classLogo} src={dinghy.logoPath} alt={`${dinghy.name} class logo`} width="150px"/>
             ) : null }
             <ul>
                 <li><span className={styles.label}>LOA:</span> {dinghy.length}m</li>

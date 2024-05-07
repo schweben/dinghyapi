@@ -338,7 +338,7 @@ databaseChangeLog:
                  value: '11.6'
               - column:
                  name: logo_path
-                 value: '/images/logos/albacore.jog'
+                 value: '/images/logos/albacore.jpg'
               - column:
                  name: image_path
                  value: '/images/albacore.jpg'
