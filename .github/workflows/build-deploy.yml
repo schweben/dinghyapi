@@ -24,7 +24,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v4
+    - name: Checkout code
+      uses: actions/checkout@v4
 
     - name: Set up JDK 17
       uses: actions/setup-java@v4
@@ -33,7 +34,7 @@ jobs:
         distribution: 'temurin'
         cache: maven
 
-    - name: Build with Maven
+    - name: Build and test with Maven
       run: mvn -B package --file pom.xml
 
     - name: Publish test results
@@ -45,4 +46,15 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: dinghy-search
-        path: target/*.jar
+        path: target/dinghy-search.jar
+
+    - name: Deploy to AWS Elastic Beanstalk
+      uses: einaregilsson/beanstalk-deploy@v20
+      with:
+        aws_access_key: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        application_name: dinghy-search
+        environment_name: dinghy-search-app-env
+        version_label: ver-${{ github.sha }}
+        region: eu-west-2
+        deployment_package: target/dinghy-search.jar
