@@ -35,7 +35,7 @@ databaseChangeLog:
                  value: '0'
               - column:
                  name: length
-                 value: '4.2'
+                 value: '4.20'
               - column:
                  name: beam
                  value: '2.48'
@@ -45,6 +45,12 @@ databaseChangeLog:
               - column:
                  name: sail_area
                  value: '10.4'
+              - column:
+                 name: logo_path
+                 value: '/images/logos/blaze.jpg'
+              - column:
+                 name: image_path
+                 value: '/images/blaze.jpg'
         - insert:
             tableName: dinghies
             columns:
@@ -77,16 +83,67 @@ databaseChangeLog:
                  value: '0'
               - column:
                  name: length
-                 value: '3.6'
+                 value: '3.60'
               - column:
                  name: beam
-                 value: '1.3'
+                 value: '1.30'
               - column:
                  name: hull_weight
                  value: '45'
               - column:
                  name: sail_area
                  value: '6.8'
+              - column:
+                 name: logo_path
+                 value: '/images/logos/byte-cii.png'
+              - column:
+                 name: image_path
+                 value: '/images/byte-cII.jpg'
+        - insert:
+            tableName: dinghies
+            columns:
+              - column:
+                 name: name
+                 value: 'Comet'
+              - column:
+                 name: yardstick
+                 value: '1210'
+              - column:
+                 name: crew
+                 value: '1'
+              - column:
+                 name: rig
+                 value: 'UNA'
+              - column:
+                 name: hulls
+                 value: '1'
+              - column:
+                 name: symmetric_spinnaker
+                 value: 'false'
+              - column:
+                 name: asymmetric_spinnaker
+                 value: 'false'
+              - column:
+                 name: trapeze
+                 value: '0'
+              - column:
+                 name: length
+                 value: '3.45'
+              - column:
+                 name: beam
+                 value: '1.37'
+              - column:
+                 name: hull_weight
+                 value: '50'
+              - column:
+                 name: sail_area
+                 value: '6.5'
+              - column:
+                 name: logo_path
+                 value: '/images/logos/comet.jpg'
+              - column:
+                 name: image_path
+                 value: '/images/comet.jpg'
         - insert:
             tableName: dinghies
             columns:
@@ -122,13 +179,19 @@ databaseChangeLog:
                  value: '4.88'
               - column:
                  name: beam
-                 value: '1.5'
+                 value: '1.50'
               - column:
                  name: hull_weight
                  value: '83'
               - column:
                  name: sail_area
                  value: '10.3'
+              - column:
+                 name: logo_path
+                 value: '/images/logos/contender.jpg'
+              - column:
+                 name: image_path
+                 value: '/images/contender.jpg'
         - insert:
             tableName: dinghies
             columns:
@@ -174,6 +237,12 @@ databaseChangeLog:
               - column:
                  name: spinnaker_area
                  value: '13.2'
+              - column:
+                 name: logo_path
+                 value: '/images/logos/d-one.jpg'
+              - column:
+                 name: image_path
+                 value: '/images/devoti-d-one.jpg'
         - insert:
             tableName: dinghies
             columns:
@@ -206,7 +275,7 @@ databaseChangeLog:
                  value: '0'
               - column:
                  name: length
-                 value: '4.2'
+                 value: '4.20'
               - column:
                  name: beam
                  value: '1.42'
@@ -216,6 +285,12 @@ databaseChangeLog:
               - column:
                  name: sail_area
                  value: '8.1'
+              - column:
+                 name: logo_path
+                 value: '/images/logos/d-zero.jpg'
+              - column:
+                 name: image_path
+                 value: '/images/devoti-d-zero.jpg'
         - insert:
             tableName: dinghies
             columns:
@@ -254,7 +329,13 @@ databaseChangeLog:
                  value: '45'
               - column:
                  name: sail_area
-                 value: '7'
+                 value: '7.0'
+              - column:
+                 name: logo_path
+                 value: '/images/logos/europe.jpg'
+              - column:
+                 name: image_path
+                 value: '/images/europe.jpg'
         - insert:
             tableName: dinghies
             columns:
@@ -296,7 +377,61 @@ databaseChangeLog:
                  value: '116'
               - column:
                  name: sail_area
-                 value: '10'
+                 value: '10.0'
+              - column:
+                 name: logo_path
+                 value: '/images/logos/finn.jpg'
+              - column:
+                 name: image_path
+                 value: '/images/finn.jpg'
+        - insert:
+            tableName: dinghies
+            columns:
+              - column:
+                 name: name
+                 value: 'Fusion'
+              - column:
+                 name: manufacturer
+                 value: 'Fusion Sailboats'
+              - column:
+                 name: yardstick
+                 value: '1280'
+              - column:
+                 name: crew
+                 value: '1'
+              - column:
+                 name: rig
+                 value: 'UNA'
+              - column:
+                 name: hulls
+                 value: '1'
+              - column:
+                 name: symmetric_spinnaker
+                 value: 'false'
+              - column:
+                 name: asymmetric_spinnaker
+                 value: 'false'
+              - column:
+                 name: trapeze
+                 value: '0'
+              - column:
+                 name: length
+                 value: '3.60'
+              - column:
+                 name: beam
+                 value: '1.45'
+              - column:
+                 name: hull_weight
+                 value: '62'
+              - column:
+                 name: sail_area
+                 value: '6.5'
+              - column:
+                 name: logo_path
+                 value: '/images/logos/fusionlogo.jpg'
+              - column:
+                 name: image_path
+                 value: '/images/fusion.jpg'
         - insert:
             tableName: dinghies
             columns:
@@ -329,7 +464,7 @@ databaseChangeLog:
                  value: '0'
               - column:
                  name: length
-                 value: '4.2'
+                 value: '4.20'
               - column:
                  name: beam
                  value: '1.95'
@@ -339,6 +474,99 @@ databaseChangeLog:
               - column:
                  name: sail_area
                  value: '9.3'
+              - column:
+                 name: logo_path
+                 value: '/images/logos/hadron-h2.jpg'
+              - column:
+                 name: image_path
+                 value: '/images/hadron-h2.jpg'
+        - insert:
+            tableName: dinghies
+            columns:
+              - column:
+                 name: name
+                 value: 'International Canoe'
+              - column:
+                 name: yardstick
+                 value: '847'
+              - column:
+                 name: crew
+                 value: '1'
+              - column:
+                 name: rig
+                 value: 'UNA'
+              - column:
+                 name: hulls
+                 value: '1'
+              - column:
+                 name: symmetric_spinnaker
+                 value: 'false'
+              - column:
+                 name: asymmetric_spinnaker
+                 value: 'false'
+              - column:
+                 name: trapeze
+                 value: '0'
+              - column:
+                 name: length
+                 value: '5.18'
+              - column:
+                 name: beam
+                 value: '1.01'
+              - column:
+                 name: hull_weight
+                 value: '50'
+              - column:
+                 name: sail_area
+                 value: '10.0'
+              - column:
+                 name: logo_path
+                 value: '/images/logos/international-canoe.png'
+              - column:
+                 name: image_path
+                 value: '/images/international-canoe.jpg'
+        - insert:
+            tableName: dinghies
+            columns:
+              - column:
+                 name: name
+                 value: 'International Moth'
+              - column:
+                 name: yardstick
+                 value: '570'
+              - column:
+                 name: crew
+                 value: '1'
+              - column:
+                 name: rig
+                 value: 'UNA'
+              - column:
+                 name: hulls
+                 value: '1'
+              - column:
+                 name: symmetric_spinnaker
+                 value: 'false'
+              - column:
+                 name: asymmetric_spinnaker
+                 value: 'false'
+              - column:
+                 name: trapeze
+                 value: '0'
+              - column:
+                 name: length
+                 value: '4.36'
+              - column:
+                 name: beam
+                 value: '2.25'
+              - column:
+                 name: sail_area
+                 value: '8.3'
+              - column:
+                 name: logo_path
+                 value: '/images/logos/international-moth.png'
+              - column:
+                 name: image_path
+                 value: '/images/international-moth.jpg'
         - insert:
             tableName: dinghies
             columns:
@@ -374,13 +602,19 @@ databaseChangeLog:
                  value: '4.57'
               - column:
                  name: beam
-                 value: '1.3'
+                 value: '1.30'
               - column:
                  name: hull_weight
                  value: '107'
               - column:
                  name: sail_area
-                 value: '11'
+                 value: '11.0'
+              - column:
+                 name: logo_path
+                 value: '/images/logos/k1-logo.png'
+              - column:
+                 name: image_path
+                 value: '/images/k1.jpg'
         - insert:
             tableName: dinghies
             columns:
@@ -419,7 +653,13 @@ databaseChangeLog:
                  value: '54'
               - column:
                  name: sail_area
-                 value: '7'
+                 value: '7.0'
+              - column:
+                 name: logo_path
+                 value: '/images/logos/lightning-368.png'
+              - column:
+                 name: image_path
+                 value: '/images/lightning-368.jpg'
         - insert:
             tableName: dinghies
             columns:
@@ -465,6 +705,12 @@ databaseChangeLog:
               - column:
                  name: spinnaker_area
                  value: '15.5'
+              - column:
+                 name: logo_path
+                 value: '/images/logos/musto-skiff.jpg'
+              - column:
+                 name: image_path
+                 value: '/images/musto-skiff.jpg'
         - insert:
             tableName: dinghies
             columns:
@@ -494,7 +740,7 @@ databaseChangeLog:
                  value: '0'
               - column:
                  name: length
-                 value: '4'
+                 value: '4.00'
               - column:
                  name: beam
                  value: '1.42'
@@ -503,7 +749,13 @@ databaseChangeLog:
                  value: '72'
               - column:
                  name: sail_area
-                 value: '8.95'
+                 value: '9.0'
+              - column:
+                 name: logo_path
+                 value: '/images/logos/ok-dinghy.jpg'
+              - column:
+                 name: image_path
+                 value: '/images/ok.jpg'
         - insert:
             tableName: dinghies
             columns:
@@ -546,6 +798,12 @@ databaseChangeLog:
               - column:
                  name: sail_area
                  value: '3.3'
+              - column:
+                 name: logo_path
+                 value: '/images/logos/optimist.png'
+              - column:
+                 name: image_path
+                 value: '/images/optimist.jpg'
         - insert:
             tableName: dinghies
             columns:
@@ -588,6 +846,12 @@ databaseChangeLog:
               - column:
                  name: sail_area
                  value: '9.8'
+              - column:
+                 name: logo_path
+                 value: '/images/logos/phantom.jpg'
+              - column:
+                 name: image_path
+                 value: '/images/phantom.jpg'
         - insert:
             tableName: dinghies
             columns:
@@ -626,7 +890,13 @@ databaseChangeLog:
                  value: '70'
               - column:
                  name: sail_area
-                 value: '8.36'
+                 value: '8.4'
+              - column:
+                 name: logo_path
+                 value: '/images/logos/solo.jpg'
+              - column:
+                 name: image_path
+                 value: '/images/solo.jpg'
         - insert:
             tableName: dinghies
             columns:
@@ -656,7 +926,7 @@ databaseChangeLog:
                  value: '0'
               - column:
                  name: length
-                 value: '3.9'
+                 value: '3.90'
               - column:
                  name: beam
                  value: '1.75'
@@ -666,6 +936,12 @@ databaseChangeLog:
               - column:
                  name: sail_area
                  value: '8.5'
+              - column:
+                 name: logo_path
+                 value: '/images/logos/solution.jpg'
+              - column:
+                 name: image_path
+                 value: '/images/solution.jpg'
         - insert:
             tableName: dinghies
             columns:
@@ -708,6 +984,12 @@ databaseChangeLog:
               - column:
                  name: sail_area
                  value: '6.5'
+              - column:
+                 name: logo_path
+                 value: '/images/logos/streaker.png'
+              - column:
+                 name: image_path
+                 value: '/images/streaker.jpg'
         - insert:
             tableName: dinghies
             columns:
@@ -743,55 +1025,19 @@ databaseChangeLog:
                  value: '4.39'
               - column:
                  name: beam
-                 value: '1.5'
+                 value: '1.50'
               - column:
                  name: hull_weight
                  value: '50'
               - column:
                  name: sail_area
-                 value: '8.22'
-        - insert:
-            tableName: dinghies
-            columns:
+                 value: '8.2'
               - column:
-                 name: name
-                 value: 'Topper 5.3'
+                 name: logo_path
+                 value: '/images/logos/supernova.png'
               - column:
-                 name: manufacturer
-                 value: 'Topper Sailboats'
-              - column:
-                 name: yardstick
-                 value: '1347'
-              - column:
-                 name: crew
-                 value: '1'
-              - column:
-                 name: rig
-                 value: 'UNA'
-              - column:
-                 name: hulls
-                 value: '1'
-              - column:
-                 name: symmetric_spinnaker
-                 value: 'false'
-              - column:
-                 name: asymmetric_spinnaker
-                 value: 'false'
-              - column:
-                 name: trapeze
-                 value: '0'
-              - column:
-                 name: length
-                 value: '3.4'
-              - column:
-                 name: beam
-                 value: '1.2'
-              - column:
-                 name: hull_weight
-                 value: '45'
-              - column:
-                 name: sail_area
-                 value: '5.3'
+                 name: image_path
+                 value: '/images/supernova.jpg'
         - insert:
             tableName: dinghies
             columns:
@@ -824,28 +1070,34 @@ databaseChangeLog:
                  value: '0'
               - column:
                  name: length
-                 value: '3.4'
+                 value: '3.40'
               - column:
                  name: beam
-                 value: '1.2'
+                 value: '1.20'
               - column:
                  name: hull_weight
                  value: '45'
               - column:
                  name: sail_area
                  value: '4.2'
+              - column:
+                 name: logo_path
+                 value: '/images/logos/topper.png'
+              - column:
+                 name: image_path
+                 value: '/images/topper.jpg'
         - insert:
             tableName: dinghies
             columns:
               - column:
                  name: name
-                 value: 'Fusion'
+                 value: 'Topper 5.3'
               - column:
                  name: manufacturer
-                 value: 'Fusion Sailboats'
+                 value: 'Topper Sailboats'
               - column:
                  name: yardstick
-                 value: '1280'
+                 value: '1347'
               - column:
                  name: crew
                  value: '1'
@@ -866,55 +1118,22 @@ databaseChangeLog:
                  value: '0'
               - column:
                  name: length
-                 value: '3.6'
+                 value: '3.40'
               - column:
                  name: beam
-                 value: '1.45'
+                 value: '1.20'
               - column:
                  name: hull_weight
-                 value: '62'
+                 value: '45'
               - column:
                  name: sail_area
-                 value: '6.45'
-        - insert:
-            tableName: dinghies
-            columns:
+                 value: '5.3'
               - column:
-                 name: name
-                 value: 'International Canoe'
+                 name: logo_path
+                 value: '/images/logos/topper.png'
               - column:
-                 name: yardstick
-                 value: '847'
-              - column:
-                 name: crew
-                 value: '1'
-              - column:
-                 name: rig
-                 value: 'UNA'
-              - column:
-                 name: hulls
-                 value: '1'
-              - column:
-                 name: symmetric_spinnaker
-                 value: 'false'
-              - column:
-                 name: asymmetric_spinnaker
-                 value: 'false'
-              - column:
-                 name: trapeze
-                 value: '0'
-              - column:
-                 name: length
-                 value: '5.18'
-              - column:
-                 name: beam
-                 value: '1.01'
-              - column:
-                 name: hull_weight
-                 value: '50'
-              - column:
-                 name: sail_area
-                 value: '10'
+                 name: image_path
+                 value: '/images/topper.jpg'
         - insert:
             tableName: dinghies
             columns:
@@ -947,52 +1166,22 @@ databaseChangeLog:
                  value: '0'
               - column:
                  name: length
-                 value: '3.4'
+                 value: '3.40'
               - column:
                  name: beam
-                 value: '1.2'
+                 value: '1.20'
               - column:
                  name: hull_weight
                  value: '45'
               - column:
                  name: sail_area
                  value: '6.4'
-        - insert:
-            tableName: dinghies
-            columns:
               - column:
-                 name: name
-                 value: 'International Moth'
+                 name: logo_path
+                 value: '/images/logos/topper.png'
               - column:
-                 name: yardstick
-                 value: '570'
-              - column:
-                 name: crew
-                 value: '1'
-              - column:
-                 name: rig
-                 value: 'UNA'
-              - column:
-                 name: hulls
-                 value: '1'
-              - column:
-                 name: symmetric_spinnaker
-                 value: 'false'
-              - column:
-                 name: asymmetric_spinnaker
-                 value: 'false'
-              - column:
-                 name: trapeze
-                 value: '0'
-              - column:
-                 name: length
-                 value: '4.36'
-              - column:
-                 name: beam
-                 value: '2.25'
-              - column:
-                 name: sail_area
-                 value: '8.25'
+                 name: image_path
+                 value: '/images/topper.jpg'
         - insert:
             tableName: dinghies
             columns:
@@ -1032,3 +1221,9 @@ databaseChangeLog:
               - column:
                  name: sail_area
                  value: '8.2'
+              - column:
+                 name: logo_path
+                 value: '/images/logos/waszp.jpg'
+              - column:
+                 name: image_path
+                 value: '/images/waszp.jpg'

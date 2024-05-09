@@ -7,494 +7,566 @@ databaseChangeLog:
             tableName: dinghies
             columns:
               - column:
-                 name: name
-                 value: 'Challenger'
+                  name: name
+                  value: 'Challenger'
               - column:
-                 name: yardstick
-                 value: '1171'
+                  name: yardstick
+                  value: '1171'
               - column:
-                 name: crew
-                 value: '1'
+                  name: crew
+                  value: '1'
               - column:
-                 name: rig
-                 value: 'UNA'
+                  name: rig
+                  value: 'UNA'
               - column:
-                 name: hulls
-                 value: '3'
+                  name: hulls
+                  value: '3'
               - column:
-                 name: symmetric_spinnaker
-                 value: 'false'
+                  name: symmetric_spinnaker
+                  value: 'false'
               - column:
-                 name: asymmetric_spinnaker
-                 value: 'false'
+                  name: asymmetric_spinnaker
+                  value: 'false'
               - column:
-                 name: trapeze
-                 value: '0'
+                  name: trapeze
+                  value: '0'
               - column:
-                 name: length
-                 value: '4.57'
+                  name: length
+                  value: '4.57'
               - column:
-                 name: beam
-                 value: '3.50'
+                  name: beam
+                  value: '3.50'
               - column:
-                 name: hull_weight
-                 value: '140'
+                  name: hull_weight
+                  value: '140'
               - column:
-                 name: sail_area
-                 value: '8.0'
+                  name: sail_area
+                  value: '8.0'
+              - column:
+                  name: logo_path
+                  value: '/images/logos/challenger.jpg'
+              - column:
+                  name: image_path
+                  value: '/images/challenger.jpg'
         - insert:
             tableName: dinghies
             columns:
               - column:
-                 name: name
-                 value: 'Dart 15'
+                  name: name
+                  value: 'Dart 15'
               - column:
-                 name: yardstick
-                 value: '926'
+                  name: yardstick
+                  value: '926'
               - column:
-                 name: crew
-                 value: '1'
+                  name: crew
+                  value: '1'
               - column:
-                 name: rig
-                 value: 'UNA'
+                  name: rig
+                  value: 'UNA'
               - column:
-                 name: hulls
-                 value: '2'
+                  name: hulls
+                  value: '2'
               - column:
-                 name: symmetric_spinnaker
-                 value: 'false'
+                  name: symmetric_spinnaker
+                  value: 'false'
               - column:
-                 name: asymmetric_spinnaker
-                 value: 'false'
+                  name: asymmetric_spinnaker
+                  value: 'false'
               - column:
-                 name: trapeze
-                 value: '0'
+                  name: trapeze
+                  value: '0'
               - column:
-                 name: length
-                 value: '4.54'
+                  name: length
+                  value: '4.54'
               - column:
-                 name: beam
-                 value: '2.13'
+                  name: beam
+                  value: '2.13'
               - column:
-                 name: hull_weight
-                 value: '66'
+                  name: hull_weight
+                  value: '66'
               - column:
-                 name: sail_area
-                 value: '12.3'
+                  name: sail_area
+                  value: '12.3'
+              - column:
+                  name: logo_path
+                  value: '/images/logos/dart.png'
+              - column:
+                  name: image_path
+                  value: '/images/dart-15.jpg'
         - insert:
             tableName: dinghies
             columns:
               - column:
-                 name: name
-                 value: 'Dart 18'
+                  name: name
+                  value: 'Dart 18'
               - column:
-                 name: yardstick
-                 value: '822'
+                  name: yardstick
+                  value: '822'
               - column:
-                 name: crew
-                 value: '2'
+                  name: crew
+                  value: '2'
               - column:
-                 name: rig
-                 value: 'SLOOP'
+                  name: rig
+                  value: 'SLOOP'
               - column:
-                 name: hulls
-                 value: '2'
+                  name: hulls
+                  value: '2'
               - column:
-                 name: symmetric_spinnaker
-                 value: 'false'
+                  name: symmetric_spinnaker
+                  value: 'false'
               - column:
-                 name: asymmetric_spinnaker
-                 value: 'false'
+                  name: asymmetric_spinnaker
+                  value: 'false'
               - column:
-                 name: trapeze
-                 value: '1'
+                  name: trapeze
+                  value: '1'
               - column:
-                 name: length
-                 value: '5.48'
+                  name: length
+                  value: '5.48'
               - column:
-                 name: beam
-                 value: '2.28'
+                  name: beam
+                  value: '2.28'
               - column:
-                 name: hull_weight
-                 value: '130'
+                  name: hull_weight
+                  value: '130'
               - column:
-                 name: sail_area
-                 value: '16.1'
+                  name: sail_area
+                  value: '16.1'
+              - column:
+                  name: logo_path
+                  value: '/images/logos/dart.png'
+              - column:
+                  name: image_path
+                  value: '/images/dart-18.jpg'
         - insert:
             tableName: dinghies
             columns:
               - column:
-                 name: name
-                 value: 'Hurricane 5.9 SX'
+                  name: name
+                  value: 'Hurricane 5.9 SX'
               - column:
-                 name: yardstick
-                 value: '695'
+                  name: yardstick
+                  value: '695'
               - column:
-                 name: crew
-                 value: '2'
+                  name: crew
+                  value: '2'
               - column:
-                 name: rig
-                 value: 'SLOOP'
+                  name: rig
+                  value: 'SLOOP'
               - column:
-                 name: hulls
-                 value: '2'
+                  name: hulls
+                  value: '2'
               - column:
-                 name: symmetric_spinnaker
-                 value: 'false'
+                  name: symmetric_spinnaker
+                  value: 'false'
               - column:
-                 name: asymmetric_spinnaker
-                 value: 'true'
+                  name: asymmetric_spinnaker
+                  value: 'true'
               - column:
-                 name: trapeze
-                 value: '2'
+                  name: trapeze
+                  value: '2'
               - column:
-                 name: length
-                 value: '5.90'
+                  name: length
+                  value: '5.90'
               - column:
-                 name: beam
-                 value: '2.43'
+                  name: beam
+                  value: '2.43'
               - column:
-                 name: hull_weight
-                 value: '186'
+                  name: hull_weight
+                  value: '186'
               - column:
-                 name: sail_area
-                 value: '21.7'
+                  name: sail_area
+                  value: '21.7'
               - column:
-                 name: spinnaker_area
-                 value: '21.0'
+                  name: spinnaker_area
+                  value: '21.0'
+              - column:
+                  name: logo_path
+                  value: '/images/logos/hurricane.jpg'
+              - column:
+                  name: image_path
+                  value: '/images/hurricane.jpg'
         - insert:
             tableName: dinghies
             columns:
               - column:
-                 name: name
-                 value: 'Nacra 15'
+                  name: name
+                  value: 'Nacra 15'
               - column:
-                 name: manufacturer
-                 value: 'Nacra'
+                  name: manufacturer
+                  value: 'Nacra'
               - column:
-                 name: crew
-                 value: '2'
+                  name: crew
+                  value: '2'
               - column:
-                 name: rig
-                 value: 'SLOOP'
+                  name: rig
+                  value: 'SLOOP'
               - column:
-                 name: hulls
-                 value: '2'
+                  name: hulls
+                  value: '2'
               - column:
-                 name: symmetric_spinnaker
-                 value: 'false'
+                  name: symmetric_spinnaker
+                  value: 'false'
               - column:
-                 name: asymmetric_spinnaker
-                 value: 'true'
+                  name: asymmetric_spinnaker
+                  value: 'true'
               - column:
-                 name: trapeze
-                 value: '2'
+                  name: trapeze
+                  value: '2'
               - column:
-                 name: length
-                 value: '4.70'
+                  name: length
+                  value: '4.70'
               - column:
-                 name: beam
-                 value: '2.34'
+                  name: beam
+                  value: '2.34'
               - column:
-                 name: hull_weight
-                 value: '150'
+                  name: hull_weight
+                  value: '150'
               - column:
-                 name: sail_area
-                 value: '17.1'
+                  name: sail_area
+                  value: '17.1'
               - column:
-                 name: spinnaker_area
-                 value: '15.9'
+                  name: spinnaker_area
+                  value: '15.9'
+              - column:
+                  name: logo_path
+                  value: '/images/logos/nacra.png'
+              - column:
+                  name: image_path
+                  value: '/images/nacra-15.jpg'
         - insert:
             tableName: dinghies
             columns:
               - column:
-                 name: name
-                 value: 'Nacra 17'
+                  name: name
+                  value: 'Nacra 17'
               - column:
-                 name: manufacturer
-                 value: 'Nacra'
+                  name: manufacturer
+                  value: 'Nacra'
               - column:
-                 name: crew
-                 value: '2'
+                  name: crew
+                  value: '2'
               - column:
-                 name: rig
-                 value: 'SLOOP'
+                  name: rig
+                  value: 'SLOOP'
               - column:
-                 name: hulls
-                 value: '2'
+                  name: hulls
+                  value: '2'
               - column:
-                 name: symmetric_spinnaker
-                 value: 'false'
+                  name: symmetric_spinnaker
+                  value: 'false'
               - column:
-                 name: asymmetric_spinnaker
-                 value: 'true'
+                  name: asymmetric_spinnaker
+                  value: 'true'
               - column:
-                 name: trapeze
-                 value: '2'
+                  name: trapeze
+                  value: '2'
               - column:
-                 name: length
-                 value: '5.25'
+                  name: length
+                  value: '5.25'
               - column:
-                 name: beam
-                 value: '2.60'
+                  name: beam
+                  value: '2.60'
               - column:
-                 name: hull_weight
-                 value: '173'
+                  name: hull_weight
+                  value: '173'
               - column:
-                 name: sail_area
-                 value: '20.1'
+                  name: sail_area
+                  value: '20.1'
               - column:
-                 name: spinnaker_area
-                 value: '17.8'
+                  name: spinnaker_area
+                  value: '17.8'
+              - column:
+                  name: logo_path
+                  value: '/images/logos/nacra.png'
+              - column:
+                  name: image_path
+                  value: '/images/nacra-17.jpg'
         - insert:
             tableName: dinghies
             columns:
               - column:
-                 name: name
-                 value: 'Nacra 500'
+                  name: name
+                  value: 'Nacra 500'
               - column:
-                 name: manufacturer
-                 value: 'Nacra'
+                  name: manufacturer
+                  value: 'Nacra'
               - column:
-                 name: crew
-                 value: '2'
+                  name: crew
+                  value: '2'
               - column:
-                 name: rig
-                 value: 'SLOOP'
+                  name: rig
+                  value: 'SLOOP'
               - column:
-                 name: hulls
-                 value: '2'
+                  name: hulls
+                  value: '2'
               - column:
-                 name: symmetric_spinnaker
-                 value: 'false'
+                  name: symmetric_spinnaker
+                  value: 'false'
               - column:
-                 name: asymmetric_spinnaker
-                 value: 'true'
+                  name: asymmetric_spinnaker
+                  value: 'true'
               - column:
-                 name: trapeze
-                 value: '0'
+                  name: trapeze
+                  value: '0'
               - column:
-                 name: length
-                 value: '5.03'
+                  name: length
+                  value: '5.03'
               - column:
-                 name: beam
-                 value: '2.50'
+                  name: beam
+                  value: '2.50'
               - column:
-                 name: hull_weight
-                 value: '145'
+                  name: hull_weight
+                  value: '145'
               - column:
-                 name: sail_area
-                 value: '18.0'
+                  name: sail_area
+                  value: '18.0'
               - column:
-                 name: spinnaker_area
-                 value: '16.5'
+                  name: spinnaker_area
+                  value: '16.5'
+              - column:
+                  name: logo_path
+                  value: '/images/logos/nacra.png'
+              - column:
+                  name: image_path
+                  value: '/images/nacra-500.jpg'
         - insert:
             tableName: dinghies
             columns:
               - column:
-                 name: name
-                 value: 'Nacra 570'
+                  name: name
+                  value: 'Nacra 570'
               - column:
-                 name: manufacturer
-                 value: 'Nacra'
+                  name: manufacturer
+                  value: 'Nacra'
               - column:
-                 name: crew
-                 value: '2'
+                  name: crew
+                  value: '2'
               - column:
-                 name: rig
-                 value: 'SLOOP'
+                  name: rig
+                  value: 'SLOOP'
               - column:
-                 name: hulls
-                 value: '2'
+                  name: hulls
+                  value: '2'
               - column:
-                 name: symmetric_spinnaker
-                 value: 'false'
+                  name: symmetric_spinnaker
+                  value: 'false'
               - column:
-                 name: asymmetric_spinnaker
-                 value: 'true'
+                  name: asymmetric_spinnaker
+                  value: 'true'
               - column:
-                 name: trapeze
-                 value: '2'
+                  name: trapeze
+                  value: '2'
               - column:
-                 name: length
-                 value: '5.65'
+                  name: length
+                  value: '5.65'
               - column:
-                 name: beam
-                 value: '2.44'
+                  name: beam
+                  value: '2.44'
               - column:
-                 name: hull_weight
-                 value: '163'
+                  name: hull_weight
+                  value: '163'
               - column:
-                 name: sail_area
-                 value: '21.1'
+                  name: sail_area
+                  value: '21.1'
               - column:
-                 name: spinnaker_area
-                 value: '21.0'
+                  name: spinnaker_area
+                  value: '21.0'
+              - column:
+                  name: logo_path
+                  value: '/images/logos/nacra.png'
+              - column:
+                  name: image_path
+                  value: '/images/nacra-570.jpg'
         - insert:
             tableName: dinghies
             columns:
               - column:
-                 name: name
-                 value: 'Nacra F16'
+                  name: name
+                  value: 'Nacra F16'
               - column:
-                 name: manufacturer
-                 value: 'Nacra'
+                  name: manufacturer
+                  value: 'Nacra'
               - column:
-                 name: crew
-                 value: '2'
+                  name: crew
+                  value: '2'
               - column:
-                 name: rig
-                 value: 'SLOOP'
+                  name: rig
+                  value: 'SLOOP'
               - column:
-                 name: hulls
-                 value: '2'
+                  name: hulls
+                  value: '2'
               - column:
-                 name: symmetric_spinnaker
-                 value: 'false'
+                  name: symmetric_spinnaker
+                  value: 'false'
               - column:
-                 name: asymmetric_spinnaker
-                 value: 'true'
+                  name: asymmetric_spinnaker
+                  value: 'true'
               - column:
-                 name: trapeze
-                 value: '2'
+                  name: trapeze
+                  value: '2'
               - column:
-                 name: length
-                 value: '5.00'
+                  name: length
+                  value: '5.00'
               - column:
-                 name: beam
-                 value: '2.50'
+                  name: beam
+                  value: '2.50'
               - column:
-                 name: hull_weight
-                 value: '127'
+                  name: hull_weight
+                  value: '127'
               - column:
-                 name: sail_area
-                 value: '18.7'
+                  name: sail_area
+                  value: '18.7'
               - column:
-                 name: spinnaker_area
-                 value: '17.5'
+                  name: spinnaker_area
+                  value: '17.5'
+              - column:
+                  name: logo_path
+                  value: '/images/logos/nacra.png'
+              - column:
+                  name: image_path
+                  value: '/images/nacra-f16.jpg'
         - insert:
             tableName: dinghies
             columns:
               - column:
-                 name: name
-                 value: 'Nacra F18'
+                  name: name
+                  value: 'Nacra F18'
               - column:
-                 name: manufacturer
-                 value: 'Nacra'
+                  name: manufacturer
+                  value: 'Nacra'
               - column:
-                 name: crew
-                 value: '2'
+                  name: crew
+                  value: '2'
               - column:
-                 name: rig
-                 value: 'SLOOP'
+                  name: rig
+                  value: 'SLOOP'
               - column:
-                 name: hulls
-                 value: '2'
+                  name: hulls
+                  value: '2'
               - column:
-                 name: symmetric_spinnaker
-                 value: 'false'
+                  name: symmetric_spinnaker
+                  value: 'false'
               - column:
-                 name: asymmetric_spinnaker
-                 value: 'true'
+                  name: asymmetric_spinnaker
+                  value: 'true'
               - column:
-                 name: trapeze
-                 value: '2'
+                  name: trapeze
+                  value: '2'
               - column:
-                 name: length
-                 value: '5.52'
+                  name: length
+                  value: '5.52'
               - column:
-                 name: beam
-                 value: '2.60'
+                  name: beam
+                  value: '2.60'
               - column:
-                 name: hull_weight
-                 value: '180'
+                  name: hull_weight
+                  value: '180'
               - column:
-                 name: sail_area
-                 value: '21.3'
+                  name: sail_area
+                  value: '21.3'
               - column:
-                 name: spinnaker_area
-                 value: '21.0'
+                  name: spinnaker_area
+                  value: '21.0'
+              - column:
+                  name: logo_path
+                  value: '/images/logos/nacra.png'
+              - column:
+                  name: image_path
+                  value: '/images/nacra-f18.jpg'
         - insert:
             tableName: dinghies
             columns:
               - column:
-                 name: name
-                 value: 'Nacra F20'
+                  name: name
+                  value: 'Nacra F20'
               - column:
-                 name: manufacturer
-                 value: 'Nacra'
+                  name: manufacturer
+                  value: 'Nacra'
               - column:
-                 name: crew
-                 value: '2'
+                  name: crew
+                  value: '2'
               - column:
-                 name: rig
-                 value: 'SLOOP'
+                  name: rig
+                  value: 'SLOOP'
               - column:
-                 name: hulls
-                 value: '2'
+                  name: hulls
+                  value: '2'
               - column:
-                 name: symmetric_spinnaker
-                 value: 'false'
+                  name: symmetric_spinnaker
+                  value: 'false'
               - column:
-                 name: asymmetric_spinnaker
-                 value: 'true'
+                  name: asymmetric_spinnaker
+                  value: 'true'
               - column:
-                 name: trapeze
-                 value: '2'
+                  name: trapeze
+                  value: '2'
               - column:
-                 name: length
-                 value: '6.20'
+                  name: length
+                  value: '6.20'
               - column:
-                 name: beam
-                 value: '3.20'
+                  name: beam
+                  value: '3.20'
               - column:
-                 name: hull_weight
-                 value: '182'
+                  name: hull_weight
+                  value: '182'
               - column:
-                 name: sail_area
-                 value: '26.1'
+                  name: sail_area
+                  value: '26.1'
               - column:
-                 name: spinnaker_area
-                 value: '27.7'
+                  name: spinnaker_area
+                  value: '27.7'
+              - column:
+                  name: logo_path
+                  value: '/images/logos/nacra.png'
+              - column:
+                  name: image_path
+                  value: '/images/nacra-f20.jpg'
         - insert:
             tableName: dinghies
             columns:
               - column:
-                 name: name
-                 value: 'Spitfire'
+                  name: name
+                  value: 'Spitfire'
               - column:
-                 name: yardstick
-                 value: '737'
+                  name: yardstick
+                  value: '737'
               - column:
-                 name: crew
-                 value: '2'
+                  name: crew
+                  value: '2'
               - column:
-                 name: rig
-                 value: 'SLOOP'
+                  name: rig
+                  value: 'SLOOP'
               - column:
-                 name: hulls
-                 value: '2'
+                  name: hulls
+                  value: '2'
               - column:
-                 name: symmetric_spinnaker
-                 value: 'false'
+                  name: symmetric_spinnaker
+                  value: 'false'
               - column:
-                 name: asymmetric_spinnaker
-                 value: 'true'
+                  name: asymmetric_spinnaker
+                  value: 'true'
               - column:
-                 name: trapeze
-                 value: '2'
+                  name: trapeze
+                  value: '2'
               - column:
-                 name: length
-                 value: '4.98'
+                  name: length
+                  value: '4.98'
               - column:
-                 name: beam
-                 value: '2.52'
+                  name: beam
+                  value: '2.52'
               - column:
-                 name: hull_weight
-                 value: '139'
+                  name: hull_weight
+                  value: '139'
               - column:
-                 name: sail_area
-                 value: '20.0'
+                  name: sail_area
+                  value: '20.0'
               - column:
-                 name: spinnaker_area
-                 value: '18.0'
+                  name: spinnaker_area
+                  value: '18.0'
+              - column:
+                  name: logo_path
+                  value: '/images/logos/spitfire-logo.jpg'
+              - column:
+                  name: image_path
+                  value: '/images/spitfire.jpg'

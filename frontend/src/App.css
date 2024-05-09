@@ -1,7 +1,9 @@
 header {
+    background-image: url(images/sea.jpg);
+    background-size: 100%;
     background-color: white;
     border-bottom: 2px solid black;
-    height: 260px;
+    height: 290px;
     left: 50%;
     position: fixed;
     text-align: center;
@@ -13,18 +15,7 @@ header {
 main {
     overflow: auto;
     position: absolute;
-    top: 260px;
-    bottom: 50px;
+    top: 290px;
     width: 100%;
     z-index: 5;
-}
-
-footer {
-    background-color: white;
-    border-top: 2px solid black;
-    bottom: 0;
-    position: fixed;
-    padding-left: 10px;
-    width: 100%;
-    z-index: 10;
 }

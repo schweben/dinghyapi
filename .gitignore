@@ -1,6 +1,7 @@
 target/
 *.csv
 *.pdf
+application-*.yaml
 
 ### IntelliJ IDEA ###
 .idea/
