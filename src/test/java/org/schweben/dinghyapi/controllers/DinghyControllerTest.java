@@ -30,29 +30,4 @@ public class DinghyControllerTest {
 
 		Mockito.verify(mockDinghyService).getDinghies(name, manufacturer, crew, symmetric, asymmetric, trapeze);
 	}
-
-	@Test
-	public void givenName_whenGetByName_callService() {
-		String name = "banana";
-
-		target.getByName(name);
-
-		Mockito.verify(mockDinghyService).getDinghies(name);
-	}
-
-	@Test
-	public void givenCrew_whenGetWithCrewNum_callService() {
-		int crew = 42;
-
-		target.getWithCrewNum(crew);
-
-		Mockito.verify(mockDinghyService).getDinghiesWithCrew(crew);
-	}
-
-	@Test
-	public void givenNoParams_whenGetWithTrapeze_callService() {
-		target.getWithTrapeze();
-
-		Mockito.verify(mockDinghyService).getDinghiesWithTrapeze();
-	}
 }
