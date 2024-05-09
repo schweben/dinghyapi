@@ -69,3 +69,4 @@ jobs:
         version_label: ver-${{ github.sha }}
         region: eu-west-2
         deployment_package: dinghy-search.jar
+        existing_bucket_name: elasticbeanstalk-eu-west-2-767398125933
