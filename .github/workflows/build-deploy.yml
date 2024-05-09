@@ -6,12 +6,10 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
-name: Dinghy Search
+name: Dinghy Search Build and Deploy
 
 on:
   push:
-    branches: [ "main", "initial-dev" ]
-  pull_request:
     branches: [ "main" ]
 
 permissions:
