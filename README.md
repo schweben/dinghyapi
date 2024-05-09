@@ -11,4 +11,4 @@
 - [X] Web frontend
 - [ ] Min/Max crew
 - [ ] Paging
-- [ ] AWS deployment
+- [X] AWS deployment
