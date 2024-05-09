@@ -10,7 +10,7 @@ name: Dinghy Search
 
 on:
   push:
-    branches: [ "main", "initial-dev", "github-actions" ]
+    branches: [ "main", "initial-dev" ]
   pull_request:
     branches: [ "main" ]
 
@@ -33,6 +33,10 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
         cache: maven
+
+    - name: Get version
+      run: |
+        echo "APP_VERSION=$(mvn help:evaluate -Dexpression=project.version -q -DforceStdout)" >> $GITHUB_ENV
 
     - name: Build and test with Maven
       run: mvn -B package --file pom.xml
@@ -66,7 +70,7 @@ jobs:
         aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         application_name: dinghy-search
         environment_name: dinghy-search-app-env
-        version_label: ver-${{ github.sha }}
+        version_label: ${{ env.APP_VERSION }}
         region: eu-west-2
         deployment_package: dinghy-search.jar
         existing_bucket_name: elasticbeanstalk-eu-west-2-767398125933
