@@ -35,8 +35,7 @@ jobs:
         cache: maven
 
     - name: Get version
-      run: |
-        echo "APP_VERSION=$(mvn help:evaluate -Dexpression=project.version -q -DforceStdout)" >> $GITHUB_ENV
+      run: echo "APP_VERSION=$(mvn help:evaluate -Dexpression=project.version -q -DforceStdout)" >> $GITHUB_ENV
 
     - name: Build and test with Maven
       run: mvn -B package --file pom.xml
@@ -51,6 +50,9 @@ jobs:
       with:
         name: dinghy-search
         path: target/dinghy-search.jar
+
+    - name: Display version
+      run: echo ${{ env.APP_VERSION }}
 
   deploy:
     name: Deploy to AWS
