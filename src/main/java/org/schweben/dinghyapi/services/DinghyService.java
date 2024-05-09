@@ -36,45 +36,6 @@ public class DinghyService {
 				.filter(dinghy -> trapeze == null || dinghy.getTrapeze() > 0).toList(), externalUrl);
 	}
 
-	public List<DinghyDTO> getDinghies(String name) {
-		return mapper.map(
-				getAllDinghies().stream().filter(dinghy -> dinghy.getName().toLowerCase().contains(name.toLowerCase()))
-						.toList(), externalUrl);
-	}
-
-	public List<DinghyDTO> getAllSymmetricDinghies() {
-		return mapper.map(getAllDinghies().stream().filter(Dinghy::isSymmetricSpinnaker).toList(), externalUrl);
-	}
-
-	public List<DinghyDTO> getAllAsymmetricDinghies() {
-		return mapper.map(getAllDinghies().stream().filter(Dinghy::isAsymmetricSpinnaker).toList(), externalUrl);
-	}
-
-	public List<DinghyDTO> getDinghiesWithTrapeze() {
-		return mapper.map(getAllDinghies().stream().filter(dinghy -> dinghy.getTrapeze() > 0).toList(), externalUrl);
-	}
-
-	public List<DinghyDTO> getDinghiesWithTrapeze(int trapezes) {
-		return mapper.map(getAllDinghies().stream().filter(dinghy -> dinghy.getTrapeze() == trapezes).toList(),
-				externalUrl);
-	}
-
-	public List<DinghyDTO> getDinghiesFromManufacturer(String manufacturer) {
-		return mapper.map(getAllDinghies().stream()
-						.filter(dinghy -> dinghy.getManufacturer().toLowerCase().contains(manufacturer.toLowerCase())).toList(),
-				externalUrl);
-	}
-
-	public List<DinghyDTO> getDinghiesWithCrew(int numCrew) {
-		return mapper.map(getAllDinghies().stream().filter(dinghy -> dinghy.getCrew() == numCrew).toList(),
-				externalUrl);
-	}
-
-	public List<DinghyDTO> getDinghiesWithHulls(int numHulls) {
-		return mapper.map(getAllDinghies().stream().filter(dinghy -> dinghy.getHulls() == numHulls).toList(),
-				externalUrl);
-	}
-
 	@Cacheable("dinghies")
 	private List<Dinghy> getAllDinghies() {
 		return dinghyRepository.findAll();
