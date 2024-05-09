@@ -20,7 +20,6 @@ permissions:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
@@ -48,6 +47,15 @@ jobs:
         name: dinghy-search
         path: target/dinghy-search.jar
 
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Download artifact
+      uses: actions/download-artifact@v4
+      with:
+        name: dinghy-search
+
     - name: Deploy to AWS Elastic Beanstalk
       uses: einaregilsson/beanstalk-deploy@v20
       with:
@@ -57,4 +65,4 @@ jobs:
         environment_name: dinghy-search-app-env
         version_label: ver-${{ github.sha }}
         region: eu-west-2
-        deployment_package: target/dinghy-search.jar
+        deployment_package: dinghy-search.jar
