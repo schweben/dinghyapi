@@ -1,0 +1,7 @@
+spring:
+  liquibase:
+    change-log: classpath:/db/changelog/master.yaml
+
+dinghysearch:
+  cache:
+    ttl: 600000

@@ -1,0 +1,11 @@
+databaseChangeLog:
+  - include:
+      file: db/changelog/doublehanders.yaml
+  - include:
+      file: db/changelog/ilca.yaml
+  - include:
+      file: db/changelog/multihulls.yaml
+  - include:
+      file: db/changelog/rs.yaml
+  - include:
+      file: db/changelog/singlehanders.yaml

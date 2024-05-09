@@ -1,0 +1,21 @@
+header {
+    background-image: url(images/sea.jpg);
+    background-size: 100%;
+    background-color: white;
+    border-bottom: 2px solid black;
+    height: 290px;
+    left: 50%;
+    position: fixed;
+    text-align: center;
+    transform: translate(-50%, 0);
+    width: 100%;
+    z-index: 10;
+}
+
+main {
+    overflow: auto;
+    position: absolute;
+    top: 290px;
+    width: 100%;
+    z-index: 5;
+}

@@ -1,0 +1,74 @@
+databaseChangeLog:
+  - changeSet:
+      id: create-table
+      author: Iain Soars
+      changes:
+        - createTable:
+            tableName: dinghies
+            columns:
+              - column:
+                  name: id
+                  type: int
+                  constraints: { nullable: false, primaryKey: true }
+                  autoIncrement: true
+              - column:
+                  name: name
+                  type: varchar(255)
+                  constraints: { nullable: false }
+              - column:
+                  name: manufacturer
+                  type: varchar(255)
+              - column:
+                  name: yardstick
+                  type: int
+              - column:
+                  name: crew
+                  type: int
+                  constraints: { nullable: false }
+              - column:
+                  name: rig
+                  type: varchar(50)
+                  constraints: { nullable: false }
+              - column:
+                  name: hulls
+                  type: int
+                  constraints: { nullable: false }
+                  defaultValue: '1'
+              - column:
+                  name: symmetric_spinnaker
+                  type: boolean
+                  defaultValue: 'false'
+              - column:
+                  name: asymmetric_spinnaker
+                  type: boolean
+                  defaultValue: 'false'
+              - column:
+                  name: trapeze
+                  type: int
+                  constraints: { nullable: false }
+                  defaultValue: '0'
+              - column:
+                  name: length
+                  type: float
+                  constraints: { nullable: false }
+              - column:
+                  name: beam
+                  type: float
+                  constraints: { nullable: false }
+              - column:
+                  name: hull_weight
+                  type: float
+              - column:
+                  name: sail_area
+                  type: float
+                  constraints: { nullable: false }
+              - column:
+                  name: spinnaker_area
+                  type: float
+                  defaultValue: '0'
+              - column:
+                  name: logo_path
+                  type: varchar(255)
+              - column:
+                  name: image_path
+                  type: varchar(255)
