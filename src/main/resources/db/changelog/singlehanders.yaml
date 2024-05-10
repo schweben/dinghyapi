@@ -1227,3 +1227,14 @@ databaseChangeLog:
               - column:
                  name: image_path
                  value: '/images/waszp.jpg'
+
+  - changeSet:
+      id: singlehanders-2
+      author: Iain Soars
+      changes:
+      - update:
+          tableName: dinghies
+          columns:
+          - column:
+              name: image_path
+              value: '/images/byte-cii.jpg'

@@ -12,3 +12,8 @@
 - [ ] Min/Max crew
 - [ ] Paging
 - [X] AWS deployment
+
+## BUGS
+
+- [X] Clear button doesn't clear the form fields
+- [X] Byte image is missing
