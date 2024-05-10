@@ -10,12 +10,13 @@
 
 .background {
     left: 50%;
+    top: 50%;
     margin: auto;
     max-height: 100%;
     max-width: 100%;
     opacity: 0.3;
     position: absolute;
-    transform: translate(-50%, 0);
+    transform: translate(-50%, -50%);
 }
 
 .logo {
