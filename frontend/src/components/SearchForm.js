@@ -3,7 +3,12 @@ import { useForm } from 'react-hook-form';
 import styles from '../styles/searchform.module.css';
 
 export default function SearchForm(props) {
-    const { register, handleSubmit } = useForm();
+    const { register, handleSubmit, reset } = useForm();
+
+    function onClearClick() {
+        reset();
+        props.clearResults();
+    }
 
     return (
         <form className={styles.container} onSubmit={handleSubmit((data) => {
@@ -55,7 +60,7 @@ export default function SearchForm(props) {
             <div className={styles.formRow}>
                 <div className={styles.formElement}>
                     <input type="submit" value="Search"/>
-                    <input type="button" value="Clear" onClick={props.clearResults}/>
+                    <input type="button" value="Clear" onClick={onClearClick} />
                 </div>
             </div>
         </form>

@@ -48,10 +48,10 @@ function App() {
       <header>
         <h1>Dinghy Search</h1>
         <p>If you want to use the API in your own projects check out the <a href="/swagger-ui/index.html">API documentation</a></p>
-        <SearchForm search={search} clearResults={clearResults}/>
+        <SearchForm search={search} clearResults={clearResults} />
       </header>
       <main>
-        <Results dinghies={dinghies}/>
+        <Results dinghies={dinghies} />
       </main>
     </div>
   );

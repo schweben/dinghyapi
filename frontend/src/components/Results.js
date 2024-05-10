@@ -6,11 +6,11 @@ export default function Results(props) {
         { props.dinghies?.map((dinghy) =>
         <div className={styles.result} key={dinghy.id}>
             { dinghy.imagePath ? (
-                <img className={styles.resultBackground} src={dinghy.imagePath} alt={dinghy.name}/>
+                <img className={styles.background} src={dinghy.imagePath} alt={dinghy.name}/>
             ) : null }
             <h2>{dinghy.name}</h2>
             { dinghy.logoPath ? (
-                <img className={styles.classLogo} src={dinghy.logoPath} alt={`${dinghy.name} class logo`} width="150px"/>
+                <img className={styles.logo} src={dinghy.logoPath} alt={`${dinghy.name} class logo`} width="150px"/>
             ) : null }
             <ul>
                 <li><span className={styles.label}>LOA:</span> {dinghy.length}m</li>
