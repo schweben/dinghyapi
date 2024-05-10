@@ -1238,3 +1238,4 @@ databaseChangeLog:
           - column:
               name: image_path
               value: '/images/byte-cii.jpg'
+          where: name='Byte CII'
